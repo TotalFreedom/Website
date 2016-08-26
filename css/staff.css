@@ -1,4 +1,38 @@
-* { margin: 0; padding: 0; height: 100%;}
+* { margin: 0; padding: 0;}
 body {
-   margin-bottom: 80px;
+   margin-bottom: 50px;
+   background: #222 url('../images/staff-bg.png') center fixed;
+   color: #ccc;
+}
+.nav-wrapper {
+   background: rgba(0,0,0,0.2);
+}
+a {
+   color: rgb(200,200,200);]
+   font-size:
+}
+.admins {
+   width: 85%;
+   margin: 0 auto;
+   background: rgba(100,100,100,0.1);
+   padding: 10px;
+}
+.admins li {
+   display: inline-block;
+   padding: 10px;
+   background: rgba(100,100,100,0.2);
+   margin: 5px;
+   border-radius: 50px;
+}
+h2 {
+   font-size: 1.5em;
+}
+#note {
+   text-align: center;
+}
+#note h5 {
+   margin-bottom: -15px;
+}
+.rank {
+   text-align: center;
 }

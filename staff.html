@@ -10,18 +10,17 @@
     <meta name="kewords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
     <meta name="description" content="TotalFreedom is the first  Free OP Minecraft server, which is up and running since 2012! play.totalfreedom.me">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.3/jquery.fullPage.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script src="js/moment.js"></script>
     <script src="js/jquery.cookies.js"></script>
-    <script src="js/functions.js"></script>
     <script src="js/admins.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <!--<link rel="stylesheet" href="css/jquery.fullPage.min.css" />-->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
     <link rel="stylesheet" href="css/component.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/staff.css">
 
 	<script>
         // All Json content is loaded respectively into #(item)
@@ -39,7 +38,6 @@
 	</script>
 </head>
 <body>
-    <div class="navbar-fixed">
         <nav class="transparent z-depth-0" id="menu">
             <div class="nav-wrapper z-depth-0">
                 <a href="#header" class="brand-logo"></small>TotalFreedom Staff</small></a>
@@ -51,8 +49,7 @@
                     <li><a href="index.html">Back to Home</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </nav><br>
         <div class="admins">
             <h2 class="rank">TotalFreedom Developers</h2>
             <ul id="developers"></ul>
@@ -62,7 +59,17 @@
             <ul id="telnetadmins"></ul>
             <h2 class="rank">TotalFreedom Super Admins</h2>
             <ul id="superadmins"></ul>
-
-
+            </div>
+                    <footer class="page-footer transparent">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="container">
+                        <hr> TotalFreedom &copy; 2012 - <span id="curYear"></span>.
+                        <a class="grey-text text-lighten-4 right" href="http://unraveledmc.com">Made by aggelosQQ</a>
+                    </div>
+                </div>
+            </div>
+            <span id="note"><h5>Under Development</h5><br/><h6>Post any bug you find <a href="http://totalfreedom.boards.net/thread/44199/totalfreedom-finally-revamped-beta-release" target="_blank">here</h6></span>
+        </footer>
    </body>
    </html>
