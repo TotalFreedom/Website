@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0;}
 body {
    margin-bottom: 50px;
+   
    background: #222 url('../images/staff-bg.png') center fixed;
    color: #ccc;
 }
@@ -25,6 +26,7 @@ a {
 }
 h2 {
    font-size: 1.5em;
+   font-family: 'Catamaran', sans-serif;
 }
 #note {
    text-align: center;
@@ -34,4 +36,14 @@ h2 {
 }
 .rank {
    text-align: center;
+}
+.page-title {
+   text-align: center;
+   font-size: 3.8em;
+   font-weight: 300;
+}
+.brand-logo {
+   font-family: 'Catamaran', sans-serif;
+   font-size: 2em;
+   font-weight: 200;
 }
