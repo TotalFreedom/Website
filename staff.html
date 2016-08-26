@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Staff | TotalFreedom Minecraft Server</title>
+    <meta name="author" content="aggelosQQ, markbyron, DarthSalamon, Madgeek1450, TotalFreedom">
+    <meta name="kewords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
+    <meta name="description" content="TotalFreedom is the first  Free OP Minecraft server, which is up and running since 2012! play.totalfreedom.me">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.3/jquery.fullPage.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.cookies.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/admins.js"></script>
+    <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!--<link rel="stylesheet" href="css/jquery.fullPage.min.css" />-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
+    <link rel="stylesheet" href="css/component.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+	<script>
+        // All Json content is loaded respectively into #(item)
+        var jsonUrl = "http://madgeekonline.com/tfinfo/";
+        var jsonContent = [
+            "developers",
+            "superadmins",
+            "telnetadmins",
+            "senioradmins"
+        ];
+		
+		$(document).ready(function() {
+            loadJson(jsonUrl, jsonContent);
+		});
+	</script>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0" id="menu">
+            <div class="nav-wrapper z-depth-0">
+                <a href="#header" class="brand-logo"></small>TotalFreedom Staff</small></a>
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
+                    <li><a href="index.html">Back to Home</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile">
+                    <li><a href="index.html">Back to Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <div class="admins">
+            <h2 class="rank">TotalFreedom Developers</h2>
+            <ul id="developers"></ul>
+            <h2 class="rank">TotalFreedom Senior Admins</h2>
+            <ul id="senioradmins"></ul>
+            <h2 class="rank">TotalFreedom Telnet Admins</h2>
+            <ul id="telnetadmins"></ul>
+            <h2 class="rank">TotalFreedom Super Admins</h2>
+            <ul id="superadmins"></ul>
+
+
+   </body>
+   </html>
