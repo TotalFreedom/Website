@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,55 +20,60 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
     <link rel="stylesheet" href="css/component.min.css">
     <link rel="stylesheet" href="css/staff.css">
-
-	<script>
-        // All Json content is loaded respectively into #(item)
-        var jsonUrl = "http://madgeekonline.com/tfinfo/";
-        var jsonContent = [
-            "developers",
-            "superadmins",
-            "telnetadmins",
-            "senioradmins"
-        ];
-		
-		$(document).ready(function() {
-            loadJson(jsonUrl, jsonContent);
-		});
-	</script>
-</head>
-<body>
-        <nav class="transparent z-depth-0" id="menu">
-            <div class="nav-wrapper z-depth-0">
-                <a href="#header" class="brand-logo"></small>TotalFreedom Staff</small></a>
-                <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
-                <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
-                    <li><a href="index.html">Back to Home</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile">
-                    <li><a href="index.html">Back to Home</a></li>
-                </ul>
-            </div>
-        </nav><br>
-        <div class="admins">
-            <h2 class="rank">TotalFreedom Developers</h2>
-            <ul id="developers"></ul>
-            <h2 class="rank">TotalFreedom Senior Admins</h2>
-            <ul id="senioradmins"></ul>
-            <h2 class="rank">TotalFreedom Telnet Admins</h2>
-            <ul id="telnetadmins"></ul>
-            <h2 class="rank">TotalFreedom Super Admins</h2>
-            <ul id="superadmins"></ul>
-            </div>
-                    <footer class="page-footer transparent">
-            <div class="container">
-                <div class="footer-copyright">
-                    <div class="container">
-                        <hr> TotalFreedom &copy; 2012 - <span id="curYear"></span>.
-                        <a class="grey-text text-lighten-4 right" href="http://unraveledmc.com">Made by aggelosQQ</a>
-                    </div>
-                </div>
-            </div>
-            <span id="note"><h5>Under Development</h5><br/><h6>Post any bug you find <a href="http://totalfreedom.boards.net/thread/44199/totalfreedom-finally-revamped-beta-release" target="_blank">here</h6></span>
-        </footer>
-   </body>
-   </html>
+    <script>
+      // All Json content is loaded respectively into #(item)
+      var jsonUrl = "http://madgeekonline.com/tfinfo/";
+      var jsonContent = [
+          "developers",
+          "superadmins",
+          "telnetadmins",
+          "senioradmins"
+      ];
+      
+      $(document).ready(function() {
+          loadJson(jsonUrl, jsonContent);
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="transparent z-depth-0" id="menu">
+      <div class="nav-wrapper z-depth-0">
+        <a href="#header" class="brand-logo"></small>TotalFreedom Staff</small></a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
+          <li><a href="index.html">Back to Home</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile">
+          <li><a href="index.html">Back to Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="admins">
+      <h2 class="rank">TotalFreedom Developers</h2>
+      <ul id="developers"></ul>
+      <h2 class="rank">TotalFreedom Senior Admins</h2>
+      <ul id="senioradmins"></ul>
+      <h2 class="rank">TotalFreedom Telnet Admins</h2>
+      <ul id="telnetadmins"></ul>
+      <h2 class="rank">TotalFreedom Super Admins</h2>
+      <ul id="superadmins"></ul>
+    </div>
+    <footer class="page-footer transparent">
+      <div class="container">
+        <div class="footer-copyright">
+          <div class="container">
+            <hr>
+            TotalFreedom &copy; 2012 - <span id="curYear"></span>.
+            <a class="grey-text text-lighten-4 right" href="http://unraveledmc.com">Made by aggelosQQ</a>
+          </div>
+        </div>
+      </div>
+      <span id="note">
+        <h5>Under Development</h5>
+        <br/>
+        <h6>Post any bug you find <a href="http://totalfreedom.boards.net/thread/44199/totalfreedom-finally-revamped-beta-release" target="_blank">here</h6>
+      </span>
+    </footer>
+  </body>
+</html>
