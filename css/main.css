@@ -138,7 +138,6 @@ i.rules-icon:hover {
    font-size: 1.5em;
    color: rgba(255,255,255,0.6);
    text-align: center;
-   border: 2px solid rgba(255,255,255,0.6);
    padding: 10px;
    border-radius: 50px;
    -webkit-transition: all 0.2s ease-in-out;

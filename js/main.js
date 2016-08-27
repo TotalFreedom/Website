@@ -1,21 +1,5 @@
 $(document).ready(function() {
    $(".button-collapse").sideNav();
-    // $('#fullpage').fullpage({
-    //     menu: '#menu',
-    //     navigation: true,
-    //     anchors:['header', 'rules', 'staff'],
-    //     fixedElements: '#menu',
-    //     slidesNavigation: true,
-    //     slidesNavPosition: 'top',
-    //     scrollBar: false,
-    //     verticalCentered: true,
-    //     navigationTooltips: ['Home', 'Rules','Staff'],
-    //     paddingTop: '30px',
-    //     paddingBottom: '10px',
-    //     autoScrolling: false,
-    //     scrollingSpeed: 700,
-    //     fitToSection: false
-    // });
 
     var interval = 15000;
     var autoRefresh = setTimeout(function() {
