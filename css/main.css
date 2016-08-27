@@ -48,7 +48,7 @@ body {
   padding: 30px;
 }
 #rules-title {
-   font-size: 3.2em;
+   font-size: 2.8em;
    z-index: 100;
   display: inline-block;
   background: rgba(230,230,230,0.1);
@@ -88,7 +88,6 @@ i.rules-icon:hover {
 .cover-2 p {
    font-size: 1.2em;
    height: auto;
-   
 }
 .section-title {
    font-size: 4em;
@@ -215,4 +214,7 @@ i.rules-icon:hover {
   float: left;
   margin-right: 5px;
   border-radius: 50%;
+}
+p.caution {
+  border-left: hidden;
 }
