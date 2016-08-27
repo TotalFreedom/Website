@@ -200,6 +200,10 @@ i.rules-icon:hover {
 #note h5 {
   margin-bottom: -20px;
 } 
+#note a {
+  color: rgb(200,200,200);
+  font-weight: bold;
+}
 .nav-wrapper {
   background: rgba(0,0,0,0.3);
 }

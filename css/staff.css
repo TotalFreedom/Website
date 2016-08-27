@@ -33,6 +33,10 @@ h2 {
 #note h5 {
    margin-bottom: -15px;
 }
+#note a {
+  color: rgb(200,200,200);
+  font-weight: bold;
+}
 .rank {
    text-align: center;
 }
