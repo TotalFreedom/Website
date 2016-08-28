@@ -218,3 +218,22 @@ i.rules-icon:hover {
   margin-right: 5px;
   border-radius: 50%;
 }
+.modal {
+  background: rgba(0,0,0,0.5);
+  color: #ccc;
+}
+.modal a {
+  color: rgb(200,200,200);
+}
+.modal ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    display: inline-block;
+}
+.modal h4 {
+  margin-bottom: 38px;
+}
+.modal > .modal-footer {
+  background: rgba(50,50,50,0.6);
+}
