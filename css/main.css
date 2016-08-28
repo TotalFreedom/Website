@@ -228,9 +228,6 @@ i.rules-icon:hover {
     color: rgb(200, 200, 200);
 }
 .modal ul {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
     display: inline-block;
 }
 .modal h4 {
