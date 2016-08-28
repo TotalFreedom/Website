@@ -1,0 +1,48 @@
+* { margin:0; padding: 0;}
+
+body {
+   background: url('../images/bg.png') fixed center no-repeat;
+   background-size: cover;
+   color: #fff;
+   margin-bottom: 40px;
+   
+}
+.card-action {
+   text-align: center;
+   margin-bottom: 30px;
+}
+button {
+   color: #ccc;
+   background: rgba(30,30,30,0.5);
+   border: none;
+   outline: none;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 10px;
+   width: 65%;
+   font-size: 1.3em;
+   font-weight: 900;
+   text-transform: uppercase;
+   font-family: 'Baloo Tamma', cursive;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+button:hover, button:focus {
+   background: rgba(50,50,50,0.5);
+}
+.card {
+   background: rgba(50,50,50,0.3);
+   font-family: 'Baloo Tamma', cursive;
+}
+.page-title {
+   text-align: center;
+}
+#note {
+   font-size: 1.4em;
+   font-size: 900;
+   font-family: 'Baloo Tamma', cursive;
+   margin-top: 5px;
+}
