@@ -46,3 +46,32 @@ button:hover, button:focus {
    font-family: 'Baloo Tamma', cursive;
    margin-top: 5px;
 }
+.header {
+   padding: 100px;
+   background: rgba(200,200,200,0.2);
+   text-align: center;
+}
+hr {
+   border: 2px solid rgba(230,230,230,0.1);
+}
+.modal {
+   color: #ccc;
+   background: rgba(20,20,20,0.8);
+   text-align: center;
+}
+.modal li {
+   margin-bottom: 5px;
+}
+.modal > .modal-footer {
+   background: rgba(40,40,40,0.8);
+}
+.modal > .modal-footer a {
+   color: #ccc;
+}
+.custom-btn {
+   background: rgba(0,0,0,0.6);
+   text-align: center;
+}
+.custom-btn:hover, .custom-btn:focus {
+   background: rgba(50,50,50,0.6);
+}
