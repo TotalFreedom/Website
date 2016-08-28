@@ -1,229 +1,231 @@
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
-   color: #fff;
-   font-family: 'Catamaran', sans-serif;
-   background: #222 url('../images/cover-1.png') no-repeat center fixed;
-   background-size: cover;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    background: #222 url('../images/cover-1.png') no-repeat center fixed;
+    background-size: cover;
 }
 .brand-logo {
-   font-family: 'Catamaran', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 .cover-1 {
-   font-size: 1.5em;
-   color: rgba(255,255,255,0.4);
-   text-align: center;
-   height: 100vh;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    height: 100vh;
 }
-.cover-1 h3, .cover-1 a {
-  margin-top: 23%;
+.cover-1 h3,
+.cover-1 a {
+    margin-top: 23%;
 }
 .button {
-   padding: 15px;
-   background: rgba(255,255,255,0.1);
-   border-radius: 65px;
-   color: rgb(200,200,200);
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-   z-index:100;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 65px;
+    color: rgb(200, 200, 200);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 100;
 }
 .button:hover {
-   background: rgba(200,200,200 ,0.2);
+    background: rgba(200, 200, 200, 0.2);
 }
 .cover-2 {
-   background: url('../images/cover-2.png') center fixed;
-   background-size: cover;
-   text-align: center;
-   height: auto;
-   padding-bottom: 40px;
+    background: url('../images/cover-2.png') center fixed;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    padding-bottom: 40px;
 }
 .rule {
-  z-index:100;
-  display: none;
-  padding: 30px;
+    z-index: 100;
+    display: none;
+    padding: 30px;
 }
 #rules-title {
-   font-size: 2.8em;
-   z-index: 100;
-  display: inline-block;
-  background: rgba(230,230,230,0.1);
-  padding: 10px;
-  cursor: pointer;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+    font-size: 2.8em;
+    z-index: 100;
+    display: inline-block;
+    background: rgba(230, 230, 230, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #rules-title:hover {
-  background: rgba(250,250,250,0.2);
+    background: rgba(250, 250, 250, 0.2);
 }
 i.rules-icon {
-  position: relative;
-  float: right;
-  color: rgba(150,150,150,0.3);
+    position: relative;
+    float: right;
+    color: rgba(150, 150, 150, 0.3);
     -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 i.rules-icon:hover {
-  color: rgba(150,150,150,1);
+    color: rgba(150, 150, 150, 1);
 }
-
-.cover-2 p, .cover-2 h2 {
-   width: 75%;
-   margin: 0 auto;
+.cover-2 p,
+.cover-2 h2 {
+    width: 75%;
+    margin: 0 auto;
 }
 .cover-2 p {
-   font-size: 1.2em;
-   height: auto;
+    font-size: 1.2em;
+    height: auto;
 }
 .section-title {
-   font-size: 4em;
-   color: rgba(255,255,255,0.9);
-   z-index:100;
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 100;
 }
 .cover-3 {
-   background: url('../images/cover-3.png') no-repeat fixed;
-   background-size: cover;
+    background: url('../images/cover-3.png') no-repeat fixed;
+    background-size: cover;
 }
 .cover-3 .section-title {
-   text-align: center;
+    text-align: center;
 }
 .admins > ul > li {
-   display: inline-block;
-   padding: 10px;
-   margin: 5px;
-   background: rgba(0,0,0,0.3);
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-   border-radius: 150px;
-   z-index: 800;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 150px;
+    z-index: 800;
 }
 .admins > ul > li:hover {
-  background: rgba(100,100,100,0.3);
+    background: rgba(100, 100, 100, 0.3);
 }
 .admins ul {
-   text-align: center;
-   z-index: 101;
+    text-align: center;
+    z-index: 101;
 }
 .admins li a {
-   color: rgba(255,255,255,0.5);
-   font-size: 1.2em;
-   z-index: 102;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2em;
+    z-index: 102;
 }
 .rank {
-   font-size: 2em;
-   text-align: center;
-   z-index: 103;
+    font-size: 2em;
+    text-align: center;
+    z-index: 103;
 }
-.cover-1, .cover-2, .cover-3 {
-   border-bottom: 1px solid rgba(255,255,255,0.2);
+.cover-1,
+.cover-2,
+.cover-3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .rest > li > a {
-   font-size: 1.5em;
-   color: rgba(255,255,255,0.6);
-   text-align: center;
-   padding: 10px;
-   border-radius: 50px;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-   z-index: 100;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 100;
 }
-
 .rest > li > a:hover {
-  background: rgba(255,255,255,0.2);
-  color: rgb(255,255,255);
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
 }
 .rest > li {
-   margin-top: 50px;
-   -webkit-transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -ms-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
-   transition: all 0.5s ease-in-out;
+    margin-top: 50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .rest > li:hover {
-  transform: translateX(10px);
+    transform: translateX(10px);
 }
- .useful li {
-   display: inline-block;
-   font-size: 1.2em;
-   color: rgba(255,255,255,0.6);
-   text-align: center;
-   border: 2px solid rgba(255,255,255,0.6);
-   padding: 10px;
-   margin-right: 10px;
-   border-radius: 50px;
-   width: 200px;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-   margin-bottom: 10px;
-   z-index: 100;
+.useful li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    width: 200px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+    z-index: 100;
 }
 .useful > li > a > i {
- font-size: 2em;
- margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 .useful li:hover {
-  background: rgba(255,255,255,0.2);
-  color: rgb(255,255,255);
-  transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
 }
 #note {
-  text-align: center;
-  color: #ccc;
-  border-radius: 150px;
-  padding: 15px;
-  z-index: 1;
+    text-align: center;
+    color: #ccc;
+    border-radius: 150px;
+    padding: 15px;
+    z-index: 1;
 }
 #note h5 {
-  margin-bottom: -20px;
-} 
+    margin-bottom: -20px;
+}
 #note a {
-  color: rgb(200,200,200);
-  font-weight: bold;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
 }
 .nav-wrapper {
-  background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 .cover-2 a {
-  font-size: 1.3em;
-  color: rgba(255,255,255,0.3);
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.3);
 }
 .head-icon {
-  width: 30px;
-  height: 30px;
-  float: left;
-  margin-right: 5px;
-  border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
 }
 .modal {
-  background: rgba(0,0,0,0.5);
-  color: #ccc;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ccc;
 }
 .modal a {
-  color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
 }
 .modal ul {
     -webkit-column-count: 3;
@@ -232,8 +234,8 @@ i.rules-icon:hover {
     display: inline-block;
 }
 .modal h4 {
-  margin-bottom: 38px;
+    margin-bottom: 38px;
 }
 .modal > .modal-footer {
-  background: rgba(50,50,50,0.6);
+    background: rgba(50, 50, 50, 0.6);
 }

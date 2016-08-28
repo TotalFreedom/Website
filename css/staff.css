@@ -1,52 +1,55 @@
-* { margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-   margin-bottom: 50px;
-   background: #222 url('../images/staff-bg.png') center fixed;
-   color: #ccc;
+    margin-bottom: 50px;
+    background: #222 url('../images/staff-bg.png') center fixed;
+    color: #ccc;
 }
 .nav-wrapper {
-   background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 a {
-   color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
 }
 .admins {
-   width: 85%;
-   margin: 0 auto;
-   background: rgba(100,100,100,0.1);
-   padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+    background: rgba(100, 100, 100, 0.1);
+    padding: 10px;
 }
 .admins li {
-   display: inline-block;
-   padding: 10px;
-   background: rgba(100,100,100,0.2);
-   margin: 5px;
-   border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    background: rgba(100, 100, 100, 0.2);
+    margin: 5px;
+    border-radius: 50px;
 }
 h2 {
-   font-size: 1.5em;
-   font-family: 'Catamaran', sans-serif;
+    font-size: 1.5em;
+    font-family: 'Catamaran', sans-serif;
 }
 #note {
-   text-align: center;
+    text-align: center;
 }
 #note h5 {
-   margin-bottom: -15px;
+    margin-bottom: -15px;
 }
 #note a {
-  color: rgb(200,200,200);
-  font-weight: bold;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
 }
 .rank {
-   text-align: center;
+    text-align: center;
 }
 .page-title {
-   text-align: center;
-   font-size: 3.8em;
-   font-weight: 300;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 300;
 }
 .brand-logo {
-   font-family: 'Catamaran', sans-serif;
-   font-size: 2em;
-   font-weight: 200;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
 }
