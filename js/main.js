@@ -1,6 +1,7 @@
 $(document).ready(function() {
    $(".button-collapse").sideNav();
-
+   $('.modal-trigger').leanModal();
+        
     var interval = 15000;
     var autoRefresh = setTimeout(function() {
             refresh();

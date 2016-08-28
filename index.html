@@ -13,12 +13,24 @@
       <script src="js/moment.js"></script>
       <script src="js/jquery.cookies.js"></script>
       <script src="js/main.js"></script>
+      <script src="js/functions.js"></script>
       <script src="js/admins.js"></script>
       <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
       <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
       <link rel="stylesheet" href="css/component.min.css">
       <link rel="stylesheet" href="css/main.css">
+          <script>
+      // All Json content is loaded respectively into #(item)
+      var jsonUrl = "http://madgeekonline.com/tfinfo/";
+      var jsonContent = [
+          "players"
+      ];
+      
+      $(document).ready(function() {
+          loadJson(jsonUrl, jsonContent);
+      });
+    </script>
       <script>
          !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-74643356-2","auto"),ga("send","pageview");
       </script>
@@ -46,7 +58,17 @@
       </div>
       <div class="section active cover-1" id="header">
          <h3 id="status"> <span id="online" ></span></h3>
-         <a href="http://play.totalfreedom.me:28966/list" target="_blank" class="button">Online Players</a>
+         <a href="#onlineplayers" class="button modal-trigger" data-target="onlineplayers">Online Players</a>
+         
+         <div id="onlineplayers" class="modal">
+    <div class="modal-content">
+      <h4>Current Online Players</h4>
+      <ul id="players"></ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
+    </div>
+  </div>
       </div>
       <div class="section  cover-2" id="rules">
          <h1 class="section-title">TotalFreedom Rules</h1>
