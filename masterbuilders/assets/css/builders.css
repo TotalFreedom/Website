@@ -77,3 +77,18 @@ hr {
    margin-right: 5px;
    float: left;
 }
+.top {
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   font-size: 3em;
+   color: rgba(178,34,34,0.6);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.top:hover {
+   color: rgba(178,34,34,1);
+}
