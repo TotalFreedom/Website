@@ -54,20 +54,6 @@ button:hover, button:focus {
 hr {
    border: 2px solid rgba(230,230,230,0.1);
 }
-.modal {
-   color: #ccc;
-   background: rgba(20,20,20,0.8);
-   text-align: center;
-}
-.modal li {
-   margin-bottom: 5px;
-}
-.modal > .modal-footer {
-   background: rgba(40,40,40,0.8);
-}
-.modal > .modal-footer a {
-   color: #ccc;
-}
 .custom-btn {
    background: rgba(0,0,0,0.6);
    text-align: center;
