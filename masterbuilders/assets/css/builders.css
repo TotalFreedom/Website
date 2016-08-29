@@ -75,3 +75,11 @@ hr {
 .custom-btn:hover, .custom-btn:focus {
    background: rgba(50,50,50,0.6);
 }
+.masterbuilders-list li {
+   display: inline-block;
+   background: rgba(100,100,100,0.4);
+   color:#ccc;
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 10%;
+}
