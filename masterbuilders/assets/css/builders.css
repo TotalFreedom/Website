@@ -83,6 +83,7 @@ hr {
    cursor: pointer;
    border-radius: 10%;  
    font-size: 1.1em;
+   margin-bottom: 3px;
 }
 .masterbuilders-list li img {
    width: 20px;
