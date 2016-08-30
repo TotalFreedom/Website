@@ -183,7 +183,7 @@ i.rules-icon:hover {
     margin-bottom: 10px;
     z-index: 100;
 }
-.useful > li > a > i {
+.useful > a > li > i {
     font-size: 2em;
     margin-bottom: 10px;
 }
