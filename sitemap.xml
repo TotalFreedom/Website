@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://totalfreedom.me/</loc>
+  <lastmod>2016-08-31T00:21:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://totalfreedom.me/masterbuilders/</loc>
+  <lastmod>2016-08-31T01:34:54+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://totalfreedom.me/staff.html</loc>
+  <lastmod>2016-08-31T11:08:18+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://totalfreedom.me/index.html</loc>
+  <lastmod>2016-08-31T00:21:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
