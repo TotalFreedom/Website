@@ -5,7 +5,10 @@ body {
    background-size: cover;
    color: #fff;
    margin-bottom: 40px;
-   
+}
+p, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Baloo Tamma', cursive;
 }
 .card-action {
    text-align: center;
@@ -70,6 +73,7 @@ hr {
    border-radius: 10%;  
    font-size: 1.1em;
    margin-bottom: 3px;
+   font-family: 'Baloo Tamma', cursive;
 }
 .masterbuilders-list li img {
    width: 20px;
@@ -79,10 +83,11 @@ hr {
 }
 .top {
    position: fixed;
-   bottom: 15px;
-   right: 15px;
+   bottom: 20px;
+   right: 50px;
    font-size: 3em;
    color: rgba(178,34,34,0.6);
+   padding: 10px;
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
@@ -91,4 +96,7 @@ hr {
 }
 .top:hover {
    color: rgba(178,34,34,1);
+}
+.badge {
+   font-size: 2em;
 }
