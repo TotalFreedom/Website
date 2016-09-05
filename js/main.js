@@ -14,7 +14,7 @@ $(document).ready(function() {
                 $("#online").html('<span style="color: firebrick; font-weight: bolder;"> Server is Offline</span>');
                 $(".button").hide();
             } else {
-                $("#online").html('TotalFreedom has  <font color="green">' + json.players.online + '/' + json.players.max + '</font> players online!');
+                $("#online").html('TotalFreedom has  <font color="green">' + json.players.online +  '</font> players online!');
                $("#players-online").html(json.players.online + ' online players!');
                 $('.button').show();
             }
