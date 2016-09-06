@@ -68,12 +68,21 @@ hr {
    display: inline-block;
    background: rgba(100,100,100,0.4);
    color:#ccc;
-   padding: 5px;
+   padding: 8px;
    cursor: pointer;
    border-radius: 10%;  
    font-size: 1.1em;
-   margin-bottom: 3px;
+   margin: 5px;
    font-family: 'Baloo Tamma', cursive;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.masterbuilders-list li:hover {
+    background: rgba(120,120,120,0.5);
+    color: #fff;
 }
 .masterbuilders-list li img {
    width: 20px;
