@@ -1,7 +1,8 @@
 $(document).ready(function() {
    $(".button-collapse").sideNav();
    $('.modal-trigger').leanModal();
-        
+   $('.tooltipped').tooltip({delay: 50});
+   
     var interval = 15000;
     var autoRefresh = setTimeout(function() {
             refresh();

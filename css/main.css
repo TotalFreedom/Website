@@ -236,3 +236,16 @@ i.rules-icon:hover {
 .modal > .modal-footer {
     background: rgba(50, 50, 50, 0.6);
 }
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: rgba(100,100,100,0.1);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(230,230,230,0.3);
+}
