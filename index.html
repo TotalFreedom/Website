@@ -1,179 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Home | TotalFreedom Minecraft Server</title>
-      <meta name="author" content="aggelosQQ, markbyron, DarthSalamon, Madgeek1450, TotalFreedom">
-      <meta name="kewords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
-      <meta name="description" content="TotalFreedom is the first  Free OP Minecraft server, which is up and running since 2012! play.totalfreedom.me">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-      <script src="js/moment.js"></script>
-      <script src="js/jquery.cookies.js"></script>
-      <script src="js/main.js"></script>
-      <script src="js/functions.js"></script>
-      <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
-      <link rel="stylesheet" href="css/component.min.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
-      <link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”>
-      <script>
-         // All Json content is loaded respectively into #(item)
-         var jsonUrl = "http://madgeekonline.com/tfinfo/";
-         var jsonContent = [
-             "players"
-         ];
-         
-         $(document).ready(function() {
-             loadJson(jsonUrl, jsonContent);
-         });
-      </script>
-      <script>
-         !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-74643356-2","auto"),ga("send","pageview");
-      </script>
-   </head>
-   <body>
-      <div class="navbar-fixed">
-         <nav class="transparent z-depth-0" id="menu">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home | TotalFreedom Minecraft Server</title>
+    <meta name="author" content="aggelosQQ, markbyron, DarthSalamon, Madgeek1450, TotalFreedom">
+    <meta name="keywords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
+    <meta name="description" content="TotalFreedom is the first  Free OP Minecraft server, which is up and running since 2012! play.totalfreedom.me">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.cookies.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
+    <link rel="stylesheet" href="css/component.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
+    <link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”>
+    <script>
+        // All Json content is loaded respectively into #(item)
+        var jsonUrl = "http://madgeekonline.com/tfinfo/";
+        var jsonContent = [
+            "players"
+        ];
+
+        $(document).ready(function() {
+            loadJson(jsonUrl, jsonContent);
+        });
+    </script>
+    <script>
+        ! function(a, b, c, d, e, f, g) {
+            a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
+                (a[e].q = a[e].q || []).push(arguments)
+            }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
+        }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-74643356-2", "auto"), ga("send", "pageview");
+    </script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0" id="menu">
             <div class="nav-wrapper z-depth-0">
-               <a href="#header" class="brand-logo"><small class="hide-on-med-and-down">play.</small>TotalFreedom<small class="hide-on-med-and-down">.me</small></a>
-               <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
-               <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
-                  <li><a href="#header">Home</a></li>
-                  <li><a href="#rules">Rules</a></li>
-                  <li><a href="#staff">Staff</a></li>
-                  <li><a href="/masterbuilders/">Masterbuilders</a></li>
-                  <li><a href="http://totalfreedom.boards.net" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="You will be redirected to totalfreedom.boards.net">Forum</a></li>
-               </ul>
-               <ul class="side-nav" id="mobile">
-                  <li><a href="#header">Home</a></li>
-                  <li><a href="#rules">Rules</a></li>
-                  <li><a href="#staff">Staff</a></li>
-                  <li><a href="/masterbuilders/">Masterbuilders</a></li>
-                  <li><a href="http://totalfreedom.boards.net">Forum</a></li>
-               </ul>
+                <a href="#header" class="brand-logo"><small class="hide-on-med-and-down">play.</small>TotalFreedom<small class="hide-on-med-and-down">.me</small></a>
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#rules">Rules</a></li>
+                    <li><a href="#staff">Staff</a></li>
+                    <li><a href="/masterbuilders/">Masterbuilders</a></li>
+                    <li><a href="http://totalfreedom.boards.net" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="You will be redirected to totalfreedom.boards.net">Forum</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#rules">Rules</a></li>
+                    <li><a href="#staff">Staff</a></li>
+                    <li><a href="/masterbuilders/">Masterbuilders</a></li>
+                    <li><a href="http://totalfreedom.boards.net">Forum</a></li>
+                </ul>
             </div>
-         </nav>
-      </div>
-      <div class="section active cover-1" id="header">
-         <div class="online-part">
-         <h3 id="server-status"> <span id="online" ></span></h3>
-         <a href="#onlineplayers" class="button modal-trigger" data-target="onlineplayers">Online Players</a>
-         </div>
-         <div id="onlineplayers" class="modal modal-fixed-footer">
+        </nav>
+    </div>
+    <div class="section active cover-1" id="header">
+        <div class="online-part">
+            <h3 id="server-status"> <span id="online"></span></h3>
+            <a href="#onlineplayers" class="button modal-trigger" data-target="onlineplayers">Online Players</a>
+        </div>
+        <div id="onlineplayers" class="modal modal-fixed-footer">
             <div class="modal-content">
-               <h4 id="players-online"></h5>
-               <ul id="players"></ul>
+                <h4 id="players-online">
+                    </h5>
+                    <ul id="players"></ul>
             </div>
             <div class="modal-footer">
-               <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
             </div>
-         </div>
-      </div>
-      <div class="section  cover-2" id="rules">
-         <h1 class="section-title">TotalFreedom Rules</h1>
-         <div class="rules-section">
+        </div>
+    </div>
+    <div class="section  cover-2" id="rules">
+        <h1 class="section-title">TotalFreedom Rules</h1>
+        <div class="rules-section">
             <h2 id="rules-title" class="one">No Griefing <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule a">Do not grief the server. There are many ways to do that, but the most common are to intentionally crash the server, lag the server, destroy or damage the spawn, destroy or damage other player's builds, erase warp points, PVP without agreement of other players, chat spamming, and so forth.<br> Use your best judgment, and remember that other people are on here to have fun also.</p>
-         </div>
-         <div class="rules-section">
+            <p class="rule a">Do not grief the server. There are many ways to do that, but the most common are to intentionally crash the server, lag the server, destroy or damage the spawn, destroy or damage other player's builds, erase warp points, PVP without agreement
+                of other players, chat spamming, and so forth.<br> Use your best judgment, and remember that other people are on here to have fun also.</p>
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="two">No Posing <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule b">Do not pose as the server owner (markbyron) and do not pose as an admin or one of the other regular players that use Total Freedom. By posing, that means using a program such as MinecraftSP or otherwise changing your nick. Posing to change your title or to pose as somebody "famous" (like Notch) is okay provided you do not use it grief the server. You may not use nicks or tags that imply you have an official position on the server. This includes any nick or tag including the words admin, senior, owner, telnet, builder, architect, coder, dev, programmer, mod, security, or any nick or tag that the owner or a senior admin believes is an attempt to pose. In such cases, the offender will be de-nicked and warned.</p>
-         </div>
-         <div class="rules-section">
+            <p class="rule b">Do not pose as the server owner (markbyron) and do not pose as an admin or one of the other regular players that use Total Freedom. By posing, that means using a program such as MinecraftSP or otherwise changing your nick. Posing to change
+                your title or to pose as somebody "famous" (like Notch) is okay provided you do not use it grief the server. You may not use nicks or tags that imply you have an official position on the server. This includes any nick or tag including
+                the words admin, senior, owner, telnet, builder, architect, coder, dev, programmer, mod, security, or any nick or tag that the owner or a senior admin believes is an attempt to pose. In such cases, the offender will be de-nicked and warned.</p>
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="three">Respect Privacy <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule c">Respect the "Total Freedom" of other players. Do not be a pest or a nuisance to others, and respect their privacy. Do not "help" with builds if people do not want you to, and do not teleport someone without their permission. It is best to use /tpahere to request for someone to teleport to you, rather than forcefully teleporting them.
+            <p class="rule c">Respect the "Total Freedom" of other players. Do not be a pest or a nuisance to others, and respect their privacy. Do not "help" with builds if people do not want you to, and do not teleport someone without their permission. It is best to
+                use /tpahere to request for someone to teleport to you, rather than forcefully teleporting them.
             </p>
-         </div>
-         <div class="rules-section">
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="four">Respect others <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule d">Do not engage in personal attacks on other players/admins and take all personal disputes off the server. If you don't like a particular player, feel more than free to use the ignore command on them but personal wars on the server won't be tolerated regardless of who started it and temporary bans will result. If you're coming on the server to troll other players, you'll end up getting trolled yourself (we love to play with trolls). Similarly, threats to DOX, threats to commit illegal acts (e.g. DDOS), graphic sexual discussion or RP, linking to porn or scam sites, racist attacks, and other forms of behavior designed to offend, intimidate or harass will not be tolerated.</p>
-         </div>
-         <div class="rules-section">
+            <p class="rule d">Do not engage in personal attacks on other players/admins and take all personal disputes off the server. If you don't like a particular player, feel more than free to use the ignore command on them but personal wars on the server won't be
+                tolerated regardless of who started it and temporary bans will result. If you're coming on the server to troll other players, you'll end up getting trolled yourself (we love to play with trolls). Similarly, threats to DOX, threats to commit
+                illegal acts (e.g. DDOS), graphic sexual discussion or RP, linking to porn or scam sites, racist attacks, and other forms of behavior designed to offend, intimidate or harass will not be tolerated.</p>
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="five">Adhere to Authority <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule e">Do not override the actions of the server owner (markbyron) or other admins. For example, if an admin de-ops or bans a player for griefing, you may not re-op or pardon them without permission. Super admins will follow the directions of senior admins with respect to any admin matter unless it violates server rules. If it violates the rules, the admin will notify the proper authority.</p>
-         </div>
-         <br> 
-         <p class="caution"><i class="fa fa-exclamation-circle"></i> TotalFreedom does not accept donations.</p>
-         <a href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins">Read more</a>
-         <h1 class="section-title">TotalFreedom Help</h1>
-         <div class="rules-section">
+            <p class="rule e">Do not override the actions of the server owner (markbyron) or other admins. For example, if an admin de-ops or bans a player for griefing, you may not re-op or pardon them without permission. Super admins will follow the directions of senior
+                admins with respect to any admin matter unless it violates server rules. If it violates the rules, the admin will notify the proper authority.</p>
+        </div>
+        <br>
+        <p class="caution"><i class="fa fa-exclamation-circle"></i> TotalFreedom does not accept donations.</p>
+        <a href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins">Read more</a>
+        <h1 class="section-title">TotalFreedom Help</h1>
+        <div class="rules-section">
             <h2 id="rules-title" class="six">Saving Builds <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
-            <p class="rule f">To save your builds (i.e. create a WorldEdit schematic), first use the //wand tool to select the bounds of your build (i.e. the opposite corners of your build). Then, type //copy to place your build on the clipboard, and type //schem save nameofbuild to save your build (replacing nameofbuild with a unique name of your own).<br/> To load a schematic back into the world, do //schem load nameofbuild, and then //paste..</p>
-         </div>
-         <div class="rules-section">
+            <p class="rule f">To save your builds (i.e. create a WorldEdit schematic), first use the //wand tool to select the bounds of your build (i.e. the opposite corners of your build). Then, type //copy to place your build on the clipboard, and type //schem save
+                nameofbuild to save your build (replacing nameofbuild with a unique name of your own).<br/> To load a schematic back into the world, do //schem load nameofbuild, and then //paste..</p>
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="seven">Flatlands <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
             <p class="rule g">This server features an additional flat-land building world which is very useful for building intricate creations. You can access this world by typing /flatlands, and you can get back to the main world by typing /flatlands again.</p>
-         </div>
-         <div class="rules-section">
+        </div>
+        <div class="rules-section">
             <h2 id="rules-title" class="eight">Gamemodes <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
             <p class="rule h">You are free to use creative or survival mode on the server. For creative, type /creative. For survival, type /survival.
             </p>
-         </div>
-      </div>
-      <div class="section cover-3" id="staff">
-         <br/>
-         <h1 class="section-title">Current Staff</h1>
-         <div class="admins">
+        </div>
+    </div>
+    <div class="section cover-3" id="staff">
+        <br/>
+        <h1 class="section-title">Current Staff</h1>
+        <div class="admins">
             <h2 class="rank">TotalFreedom Executives</h2>
             <ul id="executiveboard">
-               <li><a href="http://www.twitter.com/totalfreedommc" target="_blank"><img src="images/markbyron.png" class="responsive-img head-icon">MarkByron - Owner & Founder</a></li>
-               <li><a href="http://www.twitter.com/JeromSar" target="_blank"><img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza - Executive Lead Dev</a></li>
-               <li><a href="http://www.twitter.com/Fiinest95" target="_blank"><img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/246" target="_blank"><img src="https://minotar.net/avatar/inFamas97/80.png" class="responsive-img head-icon">inFAmas97 - Executive Admin</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/47" target="_blank"><img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh - Executive Admin</a></li>
-               <li><a href="https://twitter.com/cowgomooo12" target="_blank"><img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12 - Executive Admin</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/3448" target="_blank"><img src="https://minotar.net/avatar/_Windows/80.png" class="responsive-img head-icon">_Windows - Security Officer</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/16323" target="_blank"><img src="https://minotar.net/avatar/DarkLynx108/80.png" class="responsive-img head-icon">DarkLynx108 - Creative Designer</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/916" target="_blank"><img src="https://minotar.net/avatar/wisemagick1/80.png" class="responsive-img head-icon">wisemagick1 - Evangelist</a></li>
-               <li><a href="http://www.twitter.com/maloukos1" target="_blank"><img src="images/aggelosqq.png" class="responsive-img head-icon">aggelosQQ - Webmaster</a></li>
+                <li>
+                    <a href="http://www.twitter.com/totalfreedommc" target="_blank"><img src="images/markbyron.png" class="responsive-img head-icon">MarkByron - Owner & Founder</a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/JeromSar" target="_blank"><img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza - Executive Lead Dev</a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/Fiinest95" target="_blank"><img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/246" target="_blank"><img src="https://minotar.net/avatar/inFamas97/80.png" class="responsive-img head-icon">inFAmas97 - Executive Admin</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/47" target="_blank"><img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh - Executive Admin</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/cowgomooo12" target="_blank"><img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12 - Executive Admin</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/3448" target="_blank"><img src="https://minotar.net/avatar/_Windows/80.png" class="responsive-img head-icon">_Windows - Security Officer</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/16323" target="_blank"><img src="https://minotar.net/avatar/DarkLynx108/80.png" class="responsive-img head-icon">DarkLynx108 - Creative Designer</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/916" target="_blank"><img src="https://minotar.net/avatar/wisemagick1/80.png" class="responsive-img head-icon">wisemagick1 - Evangelist</a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/maloukos1" target="_blank"><img src="images/aggelosqq.png" class="responsive-img head-icon">aggelosQQ - Webmaster</a>
+                </li>
             </ul>
             <h2 class="rank">Global Forum Moderators</h2>
             <ul id="modboard">
-               <li><a href="https://www.twitter.com/fiinest95" target="_blank"><img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager</a></li>
-               <li><a href="https://www.twitter.com/totalfreedommc" target="_blank"><img src="images/markbyron.png" class="responsive-img head-icon">MarkByron</a></li>
-               <li><a href="https://www.twitter.com/JeromSar" target="_blank"><img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza</a></li>
-               <li><a href="https://www.twitter.com/wickedgaminguk" target="_blank"><img src="https://minotar.net/avatar/WickedGamingUK/80.png" class="responsive-img head-icon">WickedGamingUK</a></li>
-               <li><a href="https://twitter.com/cowgomooo12" target="_blank"><img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12</a></li>
-               <li><a href="htttps://twitter.com/OliverDatGuy" target="_blank"><img src="https://minotar.net/avatar/OliverDatGuy/80.png" class="responsive-img head-icon">OliverDatGuy</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/246" target="_blank"><img src="https://minotar.net/avatar/inFAmas97/80.png" class="responsive-img head-icon">inFAmas97</a></li>
-               <li><a href="http://totalfreedom.boards.net/user/47" target="_blank"><img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh</a></li>
+                <li>
+                    <a href="https://www.twitter.com/fiinest95" target="_blank"><img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/totalfreedommc" target="_blank"><img src="images/markbyron.png" class="responsive-img head-icon">MarkByron</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/JeromSar" target="_blank"><img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/wickedgaminguk" target="_blank"><img src="https://minotar.net/avatar/WickedGamingUK/80.png" class="responsive-img head-icon">WickedGamingUK</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/cowgomooo12" target="_blank"><img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12</a>
+                </li>
+                <li>
+                    <a href="htttps://twitter.com/OliverDatGuy" target="_blank"><img src="https://minotar.net/avatar/OliverDatGuy/80.png" class="responsive-img head-icon">OliverDatGuy</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/246" target="_blank"><img src="https://minotar.net/avatar/inFAmas97/80.png" class="responsive-img head-icon">inFAmas97</a>
+                </li>
+                <li>
+                    <a href="http://totalfreedom.boards.net/user/47" target="_blank"><img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh</a>
+                </li>
             </ul>
             <div class="container">
-               <ul class="rest">
-                  <li><a href="staff.html" class="readmore">See the rest of the staff <i class="fa fa-arrow-right"></i></a></li>
-                  <br/>
-               </ul>
-               <br/>
-               <hr>
-               <br/>
-               <h3 style="text-align: center;">Useful Links</h3>
-               <ul class="useful">
-                 <a href="http://totalfreedom.boards.net" target="_blank" class="readmore"> <li><i class="fa fa-comments icon"></i><br/> Forum</li></a>
-                 <a href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins" target="_blank" class="readmore"> <li><i class="fa fa-ban icon"></i><br/> Conduct Policy</li></a>
-                 <a href="http://github.com/TotalFreedom" target="_blank" class="readmore"> <li><i class="fa fa-github icon"></i><br/>Github</li></a>
-                  <a href="https://twitter.com/totalfreedommc" target="_blank" class="readmore"><li><i class="fa fa-twitter icon"></i><br/> Twitter</li></a>
-               </ul>
+                <ul class="rest">
+                    <li><a href="staff.html" class="readmore">See the rest of the staff <i class="fa fa-arrow-right"></i></a></li>
+                    <br/>
+                </ul>
+                <br/>
+                <hr>
+                <br/>
+                <h3 style="text-align: center;">Useful Links</h3>
+                <ul class="useful">
+                    <a href="http://totalfreedom.boards.net" target="_blank" class="readmore">
+                        <li><i class="fa fa-comments icon"></i><br/> Forum</li>
+                    </a>
+                    <a href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins" target="_blank" class="readmore">
+                        <li><i class="fa fa-ban icon"></i><br/> Conduct Policy</li>
+                    </a>
+                    <a href="http://github.com/TotalFreedom" target="_blank" class="readmore">
+                        <li><i class="fa fa-github icon"></i><br/>Github</li>
+                    </a>
+                    <a href="https://twitter.com/totalfreedommc" target="_blank" class="readmore">
+                        <li><i class="fa fa-twitter icon"></i><br/> Twitter</li>
+                    </a>
+                </ul>
             </div>
-         </div>
-         <footer class="page-footer transparent">
+        </div>
+        <footer class="page-footer transparent">
             <div class="container">
-               <div class="footer-copyright">
-                  <div class="container">
-                     <hr>
-                     TotalFreedom &copy; 2012 - <span id="curYear"></span>.
-                     <a class="grey-text text-lighten-4 right" href="http://unraveledmc.com">Made by aggelosQQ</a>
-                  </div>
-               </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <hr> TotalFreedom &copy; 2012 - <span id="curYear"></span>.
+                        <a class="grey-text text-lighten-4 right" href="http://unraveledmc.com">Made by aggelosQQ</a>
+                    </div>
+                </div>
             </div>
             <span id="note">
                <h6>Got an idea you would love to see implemented on the page? <a href="https://github.com/TotalFreedom/Website/issues" target="_blank">Please post your suggestions here!</a>!</h6>
             </span>
-         </footer>
-      </div>
-   </body>
+        </footer>
+    </div>
+</body>
+
 </html>
