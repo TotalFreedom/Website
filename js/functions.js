@@ -163,12 +163,12 @@ var parseArray = function (array, type) {
                 append += "Developer";
             }
         
-            result += "<li><a href=\"#\">" + array[i] + append + "</a></li>"
+            result += "<a href=\"#\"><li>" + array[i] + append + "</li></a>"
         }
     
     } else {
         for (var i in array) {
-            result += "<li><a href=\"#\">" + array[i] + "</a></li>"
+            result += "<a href=\"#\"><li>" + array[i] + "</li></a>"
         }
     }
     return result;
