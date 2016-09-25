@@ -49,7 +49,7 @@ body {
     padding: 30px;
 }
 #rules-title {
-    font-size: 2.8em;
+    font-size: 2.2em;
     z-index: 100;
     display: inline-block;
     background: rgba(230, 230, 230, 0.1);
@@ -66,7 +66,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 #rules-title:hover {
-    background: rgba(250, 250, 250, 0.2);
+    background: rgba(210, 210, 210, 0.2);
 }
 i.rules-icon {
     position: relative;

@@ -37,42 +37,42 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.one').click(function() {
-        $('.a').fadeToggle("slow");
+        $('.a').fadeToggle(300);
         $(".one i").toggleClass('fa-chevron-right', 1000);
         $(".one i").toggleClass('fa-chevron-down', 1000);
     });
     $('.two').click(function() {
-        $('.b').fadeToggle("slow");
+        $('.b').fadeToggle(300);
         $(".two i").toggleClass('fa-chevron-right');
         $(".two i").toggleClass('fa-chevron-down');
     });
     $('.three').click(function() {
-        $('.c').fadeToggle("slow");
+        $('.c').fadeToggle(300);
         $(".three i").toggleClass('fa-chevron-right');
         $(".three i").toggleClass('fa-chevron-down');
     });
     $('.four').click(function() {
-        $('.d').fadeToggle("slow");
+        $('.d').fadeToggle(300);
         $(".four i").toggleClass('fa-chevron-right');
         $(".four i").toggleClass('fa-chevron-down');
     });
     $('.five').click(function() {
-        $('.e').fadeToggle("slow");
+        $('.e').fadeToggle(300);
         $(".five i").toggleClass('fa-chevron-right');
         $(".five i").toggleClass('fa-chevron-down');
     });
     $('.six').click(function() {
-        $('.f').fadeToggle("slow");
+        $('.f').fadeToggle(300);
         $(".six i").toggleClass('fa-chevron-right');
         $(".six i").toggleClass('fa-chevron-down');
     });
     $('.seven').click(function() {
-        $('.g').fadeToggle("slow");
+        $('.g').fadeToggle(300);
         $(".seven i").toggleClass('fa-chevron-right');
         $(".seven i").toggleClass('fa-chevron-down');
     });
     $('.eight').click(function() {
-        $('.h').fadeToggle("slow");
+        $('.h').fadeToggle(300);
         $(".eight i").toggleClass('fa-chevron-right');
         $(".eight i").toggleClass('fa-chevron-down');
     });
