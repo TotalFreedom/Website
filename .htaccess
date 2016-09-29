@@ -1,5 +1,5 @@
 Options -Indexes
-ErrorDocument 403 /403.html
-ErrorDocument 404 /404.html
+ErrorDocument 403 "<img src='http://totalfreedom.me/images/403.png' />"
+ErrorDocument 404 "<img src='http://totalfreedom.me/images/404.png' />"
 
 Redirect 301 /staff/ /staff.html
