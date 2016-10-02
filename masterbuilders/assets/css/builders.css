@@ -141,6 +141,7 @@ hr {
     }
     .masterbuilders-list li {
         display: block;
+        border-radius: 0;
     }
     button {
         width: 95%;
