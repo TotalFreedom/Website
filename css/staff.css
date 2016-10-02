@@ -63,3 +63,8 @@ h2 {
     font-size: 2em;
     font-weight: 200;
 }
+
+@media only screen and (max-width: 768px) {
+    .admins {
+        width: 100%;
+}

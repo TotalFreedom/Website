@@ -249,3 +249,12 @@ i.rules-icon:hover {
     border-radius: 10px;
     background: rgba(230,230,230,0.3);
 }
+
+
+@media only screen and (max-width: 768px) {
+.cover-2 p,
+.cover-2 h2 {
+    width: 100%;
+}
+
+}
