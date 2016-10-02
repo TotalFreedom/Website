@@ -66,5 +66,10 @@ h2 {
 
 @media only screen and (max-width: 768px) {
     .admins {
-        width: 100%;
+        width: 95%;
+    }
+    .admins li {
+        display: block;
+        border-radius: 0;
+    }
 }

@@ -256,5 +256,18 @@ i.rules-icon:hover {
 .cover-2 h2 {
     width: 100%;
 }
-
+.rule {
+    padding: 15px;
+}
+.admins > ul > li {
+    display: block;
+    border-radius: 0;
+}
+.head-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+    float: left;
+    border-radius: 50%;
+}
 }
