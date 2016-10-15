@@ -165,7 +165,7 @@ i.rules-icon:hover {
 .rest > li:hover {
     transform: translateX(5px);
 }
-.useful li {
+.useful a {
     display: inline-block;
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.6);
@@ -187,7 +187,7 @@ i.rules-icon:hover {
     font-size: 2em;
     margin-bottom: 10px;
 }
-.useful li:hover {
+.useful a:hover {
     background: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     transform: translateY(-5px);
@@ -249,7 +249,9 @@ i.rules-icon:hover {
     border-radius: 10px;
     background: rgba(230,230,230,0.3);
 }
-
+.waves-effect.waves-brown .waves-ripple {
+    background-color: rgba(230,230,230, 0.3);
+}
 
 @media only screen and (max-width: 768px) {
 .cover-2 p,
