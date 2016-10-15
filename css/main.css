@@ -102,7 +102,7 @@ i.rules-icon:hover {
 .cover-3 .section-title {
     text-align: center;
 }
-.admins > ul > li {
+.admins > ul > a {
     display: inline-block;
     padding: 10px;
     margin: 5px;
@@ -115,14 +115,14 @@ i.rules-icon:hover {
     border-radius: 150px;
     z-index: 800;
 }
-.admins > ul > li:hover {
+.admins > ul > a:hover {
     background: rgba(100, 100, 100, 0.3);
 }
 .admins ul {
     text-align: center;
     z-index: 101;
 }
-.admins li a {
+.admins a li {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2em;
     z-index: 102;
