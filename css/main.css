@@ -261,7 +261,7 @@ i.rules-icon:hover {
 .rule {
     padding: 15px;
 }
-.admins > ul > li {
+.admins > ul > a {
     display: block;
     border-radius: 0;
 }
