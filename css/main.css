@@ -10,6 +10,12 @@ body {
 }
 .brand-logo {
     font-family: 'Catamaran', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button-collapse {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .cover-1 {
     font-size: 1.5em;
