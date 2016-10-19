@@ -264,6 +264,9 @@ i.rules-icon:hover {
 .cover-2 h2 {
     width: 100%;
 }
+.online-part {
+    padding: 25% 0.7%;
+}
 .rule {
     padding: 15px;
 }
