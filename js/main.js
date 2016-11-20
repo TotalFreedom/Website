@@ -42,4 +42,68 @@ $(document).ready(function() {
     refresh();
 });
 
-$(document).ready(function(){(new Date).getFullYear();$("#curYear").text((new Date).getFullYear())}),$(document).ready(function(){$(".one").click(function(){$(".a").fadeToggle(300),$(".one i").toggleClass("fa-chevron-right",1e3),$(".one i").toggleClass("fa-chevron-down",1e3)}),$(".two").click(function(){$(".b").fadeToggle(300),$(".two i").toggleClass("fa-chevron-right"),$(".two i").toggleClass("fa-chevron-down")}),$(".three").click(function(){$(".c").fadeToggle(300),$(".three i").toggleClass("fa-chevron-right"),$(".three i").toggleClass("fa-chevron-down")}),$(".four").click(function(){$(".d").fadeToggle(300),$(".four i").toggleClass("fa-chevron-right"),$(".four i").toggleClass("fa-chevron-down")}),$(".five").click(function(){$(".e").fadeToggle(300),$(".five i").toggleClass("fa-chevron-right"),$(".five i").toggleClass("fa-chevron-down")}),$(".six").click(function(){$(".f").fadeToggle(300),$(".six i").toggleClass("fa-chevron-right"),$(".six i").toggleClass("fa-chevron-down")}),$(".seven").click(function(){$(".g").fadeToggle(300),$(".seven i").toggleClass("fa-chevron-right"),$(".seven i").toggleClass("fa-chevron-down")}),$(".eight").click(function(){$(".h").fadeToggle(300),$(".eight i").toggleClass("fa-chevron-right"),$(".eight i").toggleClass("fa-chevron-down")})});
+$(document).ready(function() {
+    (new Date).getFullYear();
+    $("#curYear").text((new Date).getFullYear())
+});
+
+$(document).ready(function(){
+    (new Date).getFullYear();
+    $("#curYear").text((new Date).getFullYear());
+});
+    $(document).ready(function(){
+        $(".one").click(function(){
+            $(".a").fadeToggle(300);
+            $(".one i").toggleClass("fa-chevron-right",1e3);
+            $(".one i").toggleClass("fa-chevron-down",1e3)
+        });
+
+        $(".two").click(function(){
+            $(".b").fadeToggle(300);
+            $(".two i").toggleClass("fa-chevron-right");
+            $(".two i").toggleClass("fa-chevron-down");
+        });
+
+        $(".three").click(function(){
+            $(".c").fadeToggle(300);
+            $(".three i").toggleClass("fa-chevron-right");
+            $(".three i").toggleClass("fa-chevron-down");
+        });
+
+        $(".four").click(function(){
+            $(".d").fadeToggle(300);
+            $(".four i").toggleClass("fa-chevron-right");
+            $(".four i").toggleClass("fa-chevron-down")
+        });
+
+        $(".five").click(function(){
+            $(".e").fadeToggle(300);
+            $(".five i").toggleClass("fa-chevron-right");
+            $(".five i").toggleClass("fa-chevron-down");
+        });
+
+        $(".six").click(function(){
+            $(".f").fadeToggle(300);
+            $(".six i").toggleClass("fa-chevron-right");
+            $(".six i").toggleClass("fa-chevron-down");
+        });
+
+        $(".seven").click(function(){
+            $(".g").fadeToggle(300);
+            $(".seven i").toggleClass("fa-chevron-right");
+            $(".seven i").toggleClass("fa-chevron-down");
+        });
+
+        $(".eight").click(function(){
+            $(".h").fadeToggle(300);
+            $(".eight i").toggleClass("fa-chevron-right");
+            $(".eight i").toggleClass("fa-chevron-down");
+        });
+
+        $(".nine").click(function(){
+            $(".i").fadeToggle(300);
+            $(".i ul").fadeToggle(300);
+            $(".nine i").toggleClass("fa-chevron-right");
+            $(".nine i").toggleClass("fa-chevron-down");
+        });
+    });
