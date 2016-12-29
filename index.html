@@ -15,7 +15,7 @@
       <link async rel="stylesheet" href="css/global.css">
       <link async rel=”icon” href=”favicon.ico” type=”image/x-icon”>
       <link async rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”>
-      <script>// All Json content is loaded respectively into #(item) var jsonUrl="http://madgeekonline.com/tfinfo/"; var jsonContent=[ "players"]; $(document).ready(function(){loadJson(jsonUrl, jsonContent);}); </script> <script>! function(a, b, c, d, e, f, g){a.GoogleAnalyticsObject=e, a[e]=a[e] || function(){(a[e].q=a[e].q || []).push(arguments)}, a[e].l=1 * new Date, f=b.createElement(c), g=b.getElementsByTagName(c)[0], f.async=1, f.src=d, g.parentNode.insertBefore(f, g)}(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-74643356-2", "auto"), ga("send", "pageview"); </script>
+      <script>! function(a, b, c, d, e, f, g){a.GoogleAnalyticsObject=e, a[e]=a[e] || function(){(a[e].q=a[e].q || []).push(arguments)}, a[e].l=1 * new Date, f=b.createElement(c), g=b.getElementsByTagName(c)[0], f.async=1, f.src=d, g.parentNode.insertBefore(f, g)}(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-74643356-2", "auto"), ga("send", "pageview"); </script>
    </head>
    <body>
       <div class="navbar-fixed">
@@ -44,6 +44,7 @@
             <h3 id="server-status"> <span id="online"></span></h3>
             <a href="#onlineplayers" class="button modal-trigger" data-target="onlineplayers">Online Players</a> 
          </div>
+
          <div id="onlineplayers" class="modal modal-fixed-footer">
             <div class="modal-content">
                <h4 id="players-online">
@@ -91,6 +92,7 @@
             <h2 id="rules-title" class="eight">Gamemodes <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
             <p class="rule h">You are free to use creative or survival mode on the server. For creative, type /creative. For survival, type /survival. </p>
          </div>
+
          <div class="rules-section">
             <h2 id="rules-title" class="nine">TotalFreedom IPs <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
             <div class="rule i"><p><u>IPs you may use to connect to TotalFreedom.</u></p>
@@ -104,7 +106,6 @@
             </div>
          </div>
       </div>
-
       <div class="section cover-3" id="staff">
          <br/> 
          <h1 class="section-title">Current Staff</h1>
@@ -200,7 +201,7 @@
                <div class="footer-copyright">
                   <div class="container">
                      <hr>
-                     TotalFreedom &copy; 2012 - <span id="curYear"></span>. <a class="grey-text text-lighten-4 right" href="https://twitter.com/maloukos1">Made by aggelosQQ</a> 
+                     TotalFreedom &copy; 2010 - <span id="curYear"></span>. <a class="grey-text text-lighten-4 right" href="https://twitter.com/maloukos1">Made by aggelosQQ</a> 
                   </div>
                </div>
             </div>
@@ -217,6 +218,13 @@
       <script src="js/moment.js"></script>
       <script src="js/jquery.cookies.js"></script>
       <script src="js/main.js"></script>
-      <script src="js/functions.js"></script> 
+      <script src="js/functions.js"></script>
+      <script>
+      // All Json content is loaded respectively into #(item) 
+      var jsonUrl="http://madgeekonline.com/tfinfo/";
+      var jsonContent=[ "players"]; $(document).ready(function(){
+         loadJson(jsonUrl, jsonContent);
+      }); 
+      </script> 
    </body>
 </html>

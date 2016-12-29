@@ -10,6 +10,7 @@ body {
     -o-transition: all .2s ease-in-out;
     z-index: 100
 }
+
 .admins ul,
 .cover-1,
 .cover-2,
@@ -29,7 +30,7 @@ body {
 .brand-logo {
     margin-top: 5px;
     margin-bottom: 5px
-}
+}	
 .button-collapse {
     margin-top: 5px;
     margin-bottom: 10px
@@ -44,7 +45,7 @@ body {
     margin-top: 23%
 }
 .button {
-    padding: 15px;
+    padding: 5px 55px;
     background: rgba(255, 255, 255, .1);
     border-radius: 65px;
     color: #c8c8c8;
@@ -63,9 +64,6 @@ body {
     z-index: 100;
     display: none;
     padding: 30px
-}
-.rule ul {
-	display: none;
 }
 #rules-title,
 .admins>ul>a {
@@ -122,12 +120,16 @@ i.rules-icon:hover {
 .admins>ul>a {
     margin: 5px;
     background: rgba(0, 0, 0, .3);
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     border-radius: 150px;
-    z-index: 200
+    z-index: 200;
 }
 .admins>ul>a:hover {
-    background: rgba(100, 100, 100, .3)
+    background: rgba(100, 100, 100, .3);
+    transform: translateY(-4px);
 }
 .admins ul {
     z-index: 101
@@ -173,9 +175,6 @@ i.rules-icon:hover {
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
-}
-.rule {
-    display: none;
 }
 .rest>li:hover {
     transform: translateX(5px)
@@ -240,7 +239,22 @@ i.rules-icon:hover {
     color: #c8c8c8
 }
 .modal ul {
-    display: inline-block
+    display: inline-block;
+}
+.modal li {
+	display: inline-block;
+/*	word-wrap: break-word;*/
+	padding:10px;
+	margin:4px;
+	background: rgba(150, 150, 150, .3);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    border-radius: 150px;
+}
+.modal li:hover {
+	background: rgba(200, 200, 200, .3);
 }
 .modal h4 {
     margin-bottom: 38px
@@ -272,5 +286,9 @@ i.rules-icon:hover {
         margin-right: 0;
         float: left;
         border-radius: 50%
+    }
+    .modal li {
+    	display: block;
+    	width:95%;
     }
 }

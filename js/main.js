@@ -102,7 +102,6 @@ $(document).ready(function(){
 
         $(".nine").click(function(){
             $(".i").fadeToggle(300);
-            $(".i ul").fadeToggle(300);
             $(".nine i").toggleClass("fa-chevron-right");
             $(".nine i").toggleClass("fa-chevron-down");
         });
