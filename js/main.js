@@ -112,3 +112,26 @@ $(document).ready(function(){
             $(".nine i").toggleClass("fa-chevron-down");
         });
     });
+
+$(document).ready(function() {
+        $("#top").click(function() {
+        $('html, body').animate({
+            scrollTop: $("html, body").offset().top
+        }, 1000);
+    });
+        $("#rules").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#rules-sec").offset().top
+        }, 1000);
+    });
+        $("#staff").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#staff-sec").offset().top
+        }, 1000);
+    });
+        $("#brand-top").click(function() {
+        $('html, body').animate({
+            scrollTop: $("html, body").offset().top
+        }, 1000);
+    });
+});
