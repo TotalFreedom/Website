@@ -1,0 +1,14 @@
+@mixin transition($info) {
+	-webkit-transition: $info;
+	-moz-transition: $info;
+	-ms-transition: $info;
+	-o-transition: $info;
+	transition: $info;
+}
+
+@mixin userselect($info) {
+    user-select: $info;
+    -moz-user-select: $info;
+    -webkit-user-select: $info;
+    -ms-user-select: $info;
+}

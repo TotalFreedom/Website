@@ -8,13 +8,6 @@
     <meta name="author" content="aggelosQQ, markbyron, DarthSalamon, Madgeek1450, TotalFreedom">
     <meta name="kewords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
     <meta name="description" content="TotalFreedom is the first  Free OP Minecraft server, which is up and running since 2012! play.totalfreedom.me">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script src="js/moment.js"></script>
-    <script src="js/jquery.cookies.js"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:200" rel="stylesheet">
     <link rel="stylesheet" href="css/component.min.css">
@@ -22,27 +15,13 @@
     <link rel="stylesheet" href="css/staff.css">
     <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
     <link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”>
-    <script>
-      // All Json content is loaded respectively into #(item)
-      var jsonUrl = "http://madgeekonline.com/tfinfo/";
-      var jsonContent = [
-          "developers",
-          "superadmins",
-          "telnetadmins",
-          "senioradmins"
-      ];
-      
-      $(document).ready(function() {
-          loadJson(jsonUrl, jsonContent);
-      });
-    </script>
   </head>
   <body>
   <div id="load_screen" class="load_screen"><div id="loading">Loading TotalFreedom's Staff..<div class="progress"><div class="indeterminate"></div></div><br/><span class="skip">I don't want to wait!</span>
         </div></div>
     <nav class="transparent z-depth-0" id="menu">
       <div class="nav-wrapper z-depth-0">
-        <a href="#header" class="brand-logo">TotalFreedom <span class="hide-on-med-and-down">Staff</span></small></a>
+              <a href="#" id="brand-top" class="brand-logo"></a> <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a> 
         <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
         <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
           <li><a href="index.html">Back to Home</a></li>
@@ -75,5 +54,29 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.cookies.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+
+    <script>
+      // All Json content is loaded respectively into #(item)
+      var jsonUrl = "http://madgeekonline.com/tfinfo/";
+      var jsonContent = [
+          "developers",
+          "superadmins",
+          "telnetadmins",
+          "senioradmins"
+      ];
+      
+      $(document).ready(function() {
+          loadJson(jsonUrl, jsonContent);
+      });
+    </script>
   </body>
 </html>
