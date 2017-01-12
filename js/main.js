@@ -1,16 +1,3 @@
-$(window).on('load', function() { // makes sure the whole site is loaded 
-    $('#loading').fadeOut(); // will first fade out the loading animation 
-    $('#load_screen').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-    $('body').delay(350).css({'overflow':'visible'});
-})
-$(document).ready(function() {
-$(".skip").click(function() {
-    $('#loading').fadeOut(); // will first fade out the loading animation 
-    $('#load_screen').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-    $('body').delay(350).css({'overflow':'visible'});
-});
-});
-
 $(document).ready(function() {
     $(".button-collapse").sideNav({
         closeOnClick: true
@@ -139,3 +126,15 @@ $(document).ready(function(){
         }, 1000);
     });
 });
+
+
+var ypos,cover1,cover2,cover3;
+
+function parallax() {
+    ypos = window.pageYOffset;
+    cover1 = document.getElementById('header');
+
+    cover1.style.top = ypos * .4 + 'px';
+};
+
+window.addEventListener('scroll', parallax);
