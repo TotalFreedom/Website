@@ -1,1 +1,72 @@
-#note a,a{color:#c8c8c8}#note,.admins,.page-title,.rank{text-align:center}.brand-logo,h2{font-family:'Raleway', sans-serif;}*{margin:0;padding:0}body{margin-bottom:50px;background:url(../images/staff-bg.png) center fixed #222;color:#ccc}.nav-wrapper{background:rgba(0,0,0,.2)}.admins{width:85%;margin:0 auto;background:rgba(100,100,100,.1);padding:15px;border-radius:10px}.admins li{display:inline-block;padding:10px;background:rgba(100,100,100,.2);margin:5px;border-radius:50px;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.admins li:hover{background:rgba(100,100,100,.5)}h2{font-size:1.5em}#note h5{margin-bottom:-15px}#note a{font-weight:700}.page-title{font-size:3.8em;font-weight:300}.brand-logo{font-size:2em;font-weight:200} .typed-cursor { display: none; } @media only screen and (max-width:768px){.admins{width:95%}.admins li{display:block;border-radius:0}}
+#note a,
+a {
+  color: #c8c8c8; }
+
+#note,
+.admins,
+.page-title,
+.rank {
+  text-align: center; }
+
+.brand-logo,
+h2 {
+  font-family: 'Raleway', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin-bottom: 50px;
+  background: url(../images/staff-bg.png) center fixed #222;
+  color: #ccc; }
+
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.2); }
+
+.admins {
+  width: 85%;
+  margin: 0 auto;
+  background: rgba(100, 100, 100, 0.1);
+  padding: 15px;
+  border-radius: 10px; }
+  .admins li {
+    display: inline-block;
+    padding: 10px;
+    background: rgba(100, 100, 100, 0.2);
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.13s ease-in-out;
+    -moz-transition: all 0.13s ease-in-out;
+    -ms-transition: all 0.13s ease-in-out;
+    -o-transition: all 0.13s ease-in-out;
+    transition: all 0.13s ease-in-out; }
+    .admins li:hover {
+      background: rgba(200, 200, 200, 0.2); }
+
+h2 {
+  font-size: 1.5em; }
+
+#note h5 {
+  margin-bottom: -15px; }
+
+#note a {
+  font-weight: 700; }
+
+.page-title {
+  font-size: 3.8em;
+  font-weight: 300; }
+
+.brand-logo {
+  font-size: 2em;
+  font-weight: 200; }
+
+.typed-cursor {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  .admins {
+    width: 95%; }
+  .admins li {
+    display: block;
+    border-radius: 0; } }

@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: #fff;
   background: #222 url(../images/cover-1.png) center no-repeat fixed;
   background-size: cover; }
@@ -24,6 +24,9 @@ body {
   .button:hover {
     background: rgba(200, 200, 200, 0.2); }
 
+#online {
+  font-weight: 200; }
+
 #rules-title {
   border-radius: 0px; }
 
@@ -37,7 +40,8 @@ body {
 
 .brand-logo {
   margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  font-weight: 100; }
 
 .button-collapse {
   margin-top: 5px;
@@ -69,8 +73,8 @@ body {
   display: inline-block; }
 
 #rules-title {
-  font-size: 2.2em;
-  background: rgba(230, 230, 230, 0.1);
+  font-size: 1.9em;
+  background: rgba(180, 180, 180, 0.1);
   cursor: pointer;
   user-select: none;
   -moz-user-select: none;
@@ -83,7 +87,10 @@ body {
   transition: all 0.2s ease; }
 
 #rules-title:hover {
-  background: rgba(210, 210, 210, 0.2); }
+  background: rgba(150, 150, 150, 0.2);
+  -webkit-transform: scale(1.03, 1.03);
+  -ms-transform: scale(1.03, 1.03);
+  transform: scale(1.03, 1.03); }
 
 .admins > ul > a,
 i.rules-icon {
@@ -108,6 +115,7 @@ i.rules-icon {
 .cover-2 h2,
 .cover-2 p {
   width: 75%;
+  font-weight: 300;
   margin: 0 auto; }
 
 .cover-2 p {
@@ -115,9 +123,10 @@ i.rules-icon {
   height: auto; }
 
 .section-title {
-  font-size: 4em;
-  color: rgba(255, 255, 255, 0.9);
-  z-index: 100; }
+  font-size: 2.5em;
+  color: white;
+  z-index: 100;
+  font-weight: 100; }
 
 .cover-3 {
   background: url(../images/cover-3.png) no-repeat fixed;
@@ -131,24 +140,29 @@ i.rules-icon {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  border-radius: 150px;
-  z-index: 200; }
+  border-radius: 5px;
+  z-index: 200;
+  font-size: 0.9em; }
 
 .admins > ul > a:hover {
-  background: rgba(100, 100, 100, 0.3);
-  transform: translateY(-4px); }
+  background: rgba(70, 70, 70, 0.15);
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px); }
 
 .admins ul {
   z-index: 101; }
 
 .admins a li {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.2em;
-  z-index: 102; }
+  font-size: 1.1em;
+  z-index: 102;
+  font-weight: 300; }
 
 .rank {
-  font-size: 2em;
-  z-index: 103; }
+  font-size: 1.6em;
+  z-index: 103;
+  font-weight: 200; }
 
 .rest > li > a,
 .useful a {
@@ -162,21 +176,24 @@ i.rules-icon {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 
 .rest > li > a {
-  font-size: 1.5em;
+  font-size: 1.35em;
+  font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
+  border-radius: 10px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  display: inline-block; }
 
 .rest > li > a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(100, 100, 100, 0.2);
   color: #fff; }
 
 .rest > li {
   margin-top: 50px;
+  display: inline-block;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -184,13 +201,15 @@ i.rules-icon {
   transition: all 0.2s ease; }
 
 .rest > li:hover {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
   transform: translateX(5px); }
 
 .useful a {
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.05em;
   color: rgba(255, 255, 255, 0.6);
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(200, 200, 200, 0.3);
   margin-right: 10px;
   border-radius: 50px;
   width: 200px;
@@ -201,13 +220,18 @@ i.rules-icon {
   transition: all 0.2s ease;
   margin-bottom: 10px; }
 
+.useful h3 {
+  font-weight: 100; }
+
 .useful > a > li > i {
   font-size: 2em;
   margin-bottom: 10px; }
 
 .useful a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(100, 100, 100, 0.1);
   color: #fff;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
   transform: translateY(-5px); }
 
 #note {
@@ -225,10 +249,14 @@ i.rules-icon {
   font-weight: 700; }
 
 .nav-wrapper {
-  background: rgba(0, 0, 0, 0.3); }
+  margin: -8px;
+  background: rgba(20, 20, 20, 0.5); }
+  .nav-wrapper li > a {
+    font-weight: 200;
+    font-size: .9em; }
 
 .cover-2 a {
-  font-size: 1.3em;
+  font-size: 1.17em;
   color: rgba(255, 255, 255, 0.3); }
 
 .head-icon {
@@ -236,13 +264,13 @@ i.rules-icon {
   height: 20px;
   float: left;
   margin-right: 5px;
-  border-radius: 50%; }
+  border-radius: 2px; }
 
 small {
   font-size: 0.9em; }
 
 .modal {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(10, 10, 10, 0.8);
   color: #ccc; }
 
 .modal a {
@@ -253,25 +281,44 @@ small {
 
 .modal li {
   display: inline-block;
-  /*	word-wrap: break-word;*/
   padding: 10px;
   margin: 4px;
-  background: rgba(150, 150, 150, 0.3);
+  background: rgba(100, 100, 100, 0.2);
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  border-radius: 150px; }
+  border-radius: 5px;
+  font-size: 0.8em; }
 
 .modal li:hover {
-  background: rgba(200, 200, 200, 0.3); }
+  background: rgba(150, 150, 150, 0.3); }
 
 .modal h4 {
-  margin-bottom: 38px; }
+  margin-bottom: 38px;
+  font-size: 1.2em;
+  font-weight: 400; }
+
+.modal-msg {
+  background: rgba(34, 34, 34, 0.3);
+  display: inline-block;
+  margin: 100px auto;
+  padding: 20px 40px; }
+  .modal-msg h5 {
+    font-weight: 100;
+    font-size: 0.85em;
+    border-bottom: 3px solid rgba(204, 204, 204, 0.3);
+    padding-bottom: 20px; }
+  .modal-msg span {
+    font-size: 0.9em;
+    font-weight: 200; }
 
 .modal > .modal-footer {
-  background: rgba(50, 50, 50, 0.6); }
+  background: rgba(50, 50, 50, 0.3); }
+  .modal > .modal-footer .modal-close {
+    font-size: .9em;
+    text-transform: none; }
 
 .waves-effect.waves-brown .waves-ripple {
   background-color: rgba(230, 230, 230, 0.3); }
@@ -283,26 +330,19 @@ small {
   .cover-2 h2,
   .cover-2 p {
     width: 100%; }
-
   .online-part {
-    padding: 25% 0.7%; }
-
+    padding: 25% .7%; }
   .rule {
     padding: 15px; }
-
   .admins > ul > a {
     display: block;
     border-radius: 0; }
-
   .head-icon {
     width: 20px;
     height: 20px;
     margin-right: 0;
     float: left;
     border-radius: 50%; }
-
   .modal li {
     display: block;
     width: 95%; } }
-
-/*# sourceMappingURL=main.css.map */

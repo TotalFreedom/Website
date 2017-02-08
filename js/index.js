@@ -12,7 +12,7 @@ $(document).ready(function() {
                 $(".button").hide();
             } else {
                 $("#online").html('TotalFreedom has  <font color="green">' + json.players.online + '</font> players online!<br/>');
-                $("#players-online").html(json.players.online + ' online players!');
+                $("#players-online").html(json.players.online + ' Online Players!');
                 $('.button').show();
             }
         });
