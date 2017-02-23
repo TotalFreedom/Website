@@ -160,56 +160,62 @@ i.rules-icon {
     border-radius: 10px;
     @include transition(all .2s ease);
     display: inline-block;
-}
-.rest>li>a:hover {
-    background: rgba(100, 100, 100, .2);
-    color: #fff
+    &:hover {
+        background: rgba(100, 100, 100, .2);
+        color: #fff
+    }
 }
 .rest>li {
     margin-top: 50px;
     display: inline-block;
     @include transition(all .2s ease);
+    &:hover {
+        transform: translateX(5px)
+    }
 }
-.rest>li:hover {
-    transform: translateX(5px)
-}
-.useful a {
-    display: inline-block;
-    font-size: 1.05em;
-    color: rgba(255, 255, 255, .6);
-    border: 2px solid rgba(200, 200, 200, .3);
-    margin-right: 10px;
-    border-radius: 50px;
-    width: 200px;
-    @include transition(all .2s ease);
-    margin-bottom: 10px
-}
-.useful h3 {
-    font-weight: 100;
-}
-.useful>a>li>i {
-    font-size: 2em;
-    margin-bottom: 10px
-}
-.useful a:hover {
-    background: rgba(100, 100, 100, .1);
-    color: #fff;
-    transform: translateY(-5px)
+
+.useful {
+    a {
+        display: inline-block;
+        font-size: 1.05em;
+        color: rgba(255, 255, 255, .6);
+        border: 2px solid rgba(200, 200, 200, .3);
+        margin-right: 10px;
+        border-radius: 50px;
+        width: 200px;
+        @include transition(all .2s ease);
+        margin-bottom: 10px;
+        
+        &:hover {
+            background: rgba(100, 100, 100, .1);
+            color: #fff;
+            transform: translateY(-5px)
+        }
+    }
+    
+    h3 {
+        font-weight: 100;
+    }
+    a>li>i {
+        font-size: 2em;
+        margin-bottom: 10px
+    }
 }
 #note {
     text-align: center;
     color: #ccc;
     border-radius: 150px;
     padding: 15px;
-    z-index: 1
+    z-index: 1;
+    h5 {
+        margin-bottom: -20px
+    }
+    a {
+        color: #c8c8c8;
+        font-weight: 700
+    }
 }
-#note h5 {
-    margin-bottom: -20px
-}
-#note a {
-    color: #c8c8c8;
-    font-weight: 700
-}
+
 .nav-wrapper {
     margin: -8px;
     background: rgba(20, 20, 20, .5);
@@ -235,30 +241,30 @@ small {
 }
 .modal {
     background: rgba(10, 10, 10, .8);
-    color: #ccc
-}
-.modal a {
-    color: #c8c8c8
-}
-.modal ul {
-    display: inline-block;
-}
-.modal li {
-	display: inline-block;
-	padding:10px;
-	margin:4px;
-	background: rgba(100, 100, 100, .2);
-    @include transition(all .2s ease);
-    border-radius: 5px;
-    font-size: 0.8em;
-}
-.modal li:hover {
-	background: rgba(150, 150, 150, .3);
-}
-.modal h4 {
-    margin-bottom: 38px;
-    font-size: 1.2em;
-    font-weight: 400;
+    color: #ccc;
+    a {
+        color: #c8c8c8
+    }
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        padding:10px;
+        margin:4px;
+        background: rgba(100, 100, 100, .2);
+        @include transition(all .2s ease);
+        border-radius: 5px;
+        font-size: 0.8em;
+        &:hover {
+            background: rgba(150, 150, 150, .3);
+            }
+        }
+    }
+    h4 {
+        margin-bottom: 38px;
+        font-size: 1.2em;
+        font-weight: 200;
+    }
 }
 
 .modal-msg {
@@ -322,6 +328,10 @@ small {
     }
     .modal li {
     	display: block;
-    	width:95%;
+    	width:100%;
+        padding: 5px 70px;
+    }
+    .modal-msg {
+        margin: 25px 0;
     }
 }
