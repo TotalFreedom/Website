@@ -122,4 +122,5 @@ small { font-size: 0.9em; }
   .admins > ul > a { display: block; border-radius: 0; }
   .head-icon { width: 20px; height: 20px; margin-right: 0; float: left; border-radius: 50%; }
   .modal li { display: block; width: 100%; padding: 5px 70px; }
-  .modal-msg { margin: 25px 0; } }
+  .modal-msg { margin: 25px 0; }
+  .modal.modal-fixed-footer .modal-content { padding: 10px; } }
