@@ -32,8 +32,8 @@ $(document).ready(function() {
     $(document).ready(function(){
         $(".one").click(function(){
             $(".a").fadeToggle(300);
-            $(".one i").toggleClass("fa-chevron-right",1e3);
-            $(".one i").toggleClass("fa-chevron-down",1e3)
+            $(".one i").toggleClass("fa-chevron-right");
+            $(".one i").toggleClass("fa-chevron-down");
         });
 
         $(".two").click(function(){
@@ -51,7 +51,7 @@ $(document).ready(function() {
         $(".four").click(function(){
             $(".d").fadeToggle(300);
             $(".four i").toggleClass("fa-chevron-right");
-            $(".four i").toggleClass("fa-chevron-down")
+            $(".four i").toggleClass("fa-chevron-down");
         });
 
         $(".five").click(function(){
