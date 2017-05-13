@@ -6,7 +6,7 @@ $(document).ready(function() {
         interval);
 
     var refresh = function() {
-        $.getJSON("https://mcapi.ca/query/play.totalfreedom.me:28965/extensive", function(json) {
+        $.getJSON("https://mcapi.ca/query/play.totalfreedom.me:26865/extensive", function(json) {
             if (json.status !== true) {
                 $("#online").html('<span style="color: firebrick; font-weight: bolder;"> Server is Offline</span><br/><small style="font-size: .5em;">Check out our <a href="status">Associated Servers</a>!</small>');
                 $(".button").hide();
@@ -22,12 +22,12 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
-    $('.brand-logo').typed({
-        strings: ['<small class="hide-on-med-and-down">play.</small>TotalFreedom<small class="hide-on-med-and-down">.me</small>'],
-        typeSpeed: 30
-    });
-});
+// $(document).ready(function() {
+//     $('.brand-logo').typed({
+//         strings: [''],
+//         typeSpeed: -1000
+//     });
+// });
 
     $(document).ready(function(){
         $(".one").click(function(){

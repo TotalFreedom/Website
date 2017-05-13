@@ -28,6 +28,7 @@ body {
 }
 #rules-title {
     border-radius: 0px;
+    font-weight: 100;
 }
 .admins ul,
 .cover-1,
@@ -40,7 +41,7 @@ body {
 .brand-logo {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-weight: 100;
+    font-weight: 300;
 }	
 .button-collapse {
     margin-top: 5px;
@@ -81,7 +82,8 @@ body {
 }
 #rules-title:hover {
     background: rgba(150, 150, 150, .2);
-    transform: scale(1.03,1.03);
+    transform: scale(1.01,1.01);
+    color: #fff;
 }
 .admins>ul>a,
 i.rules-icon {
@@ -125,7 +127,7 @@ i.rules-icon {
     font-size: 0.9em;
 }
 .admins>ul>a:hover {
-    background: rgba(30, 30, 30, .8);
+    background: rgba(0, 0, 0, .5);
     transform: translateY(-3px);
 }
 .admins ul {
@@ -158,23 +160,49 @@ i.rules-icon {
     font-weight: 300;
     color: rgba(255, 255, 255, .6);
     border-radius: 10px;
-    @include transition(all .2s ease);
+    @include transition(all .5s ease);
     display: inline-block;
+    position: relative;
+    padding-right: 10px;
+
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f105';
+        position: absolute;
+        right: 30%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.35em;
+        @include transition(all .5s ease);
+        opacity: 0;
+    }
+    &:hover:before {
+        opacity: 1;
+        padding-right: 10px;
+        right: 0;
+    }
     &:hover {
         background: rgba(100, 100, 100, .2);
-        color: #fff
+        color: #fff;
+        padding-right: 30px;
     }
 }
 .rest>li {
     margin-top: 50px;
     display: inline-block;
-    @include transition(all .2s ease);
-    &:hover {
-        transform: translateX(5px)
-    }
 }
 
+h3.discord-widget-title {
+    font-size: 2em;
+    font-weight: 100;
+}
+.discord-widget {
+    text-align: center;
+    margin: 50px auto 0;
+    box-shadow: 0 0 20px rgba(#222, .9);
+}
 .useful {
+    margin-top:125px;
     a {
         display: inline-block;
         font-size: 1.05em;
@@ -218,9 +246,9 @@ i.rules-icon {
 
 .nav-wrapper {
     margin: -8px;
-    background: rgba(20, 20, 20, .5);
+    background: #222;
     li>a {
-        font-weight: 200;
+        font-weight: 300;
         font-size: .9em;
     }
 }
@@ -297,7 +325,10 @@ small {
 .typed-cursor { display: none; }
 
 
-
+.readmore {
+    text-align: center;
+    color: #bbb;
+}
 
 
 
@@ -314,6 +345,14 @@ small {
     }
     .rule {
         padding: 15px
+    }
+    .useful {
+        margin-top: 0;
+        margin: 0;
+    }
+    .discord-widget {
+        padding-left: 0;
+        transform: translateX(25%);
     }
     .admins>ul>a {
         display: block;
@@ -334,6 +373,9 @@ small {
     .modal-msg {
         margin: 25px 0;
         padding: 5px;
+    }
+    .nav-wrapper {
+        background: #111;
     }
     .modal.modal-fixed-footer .modal-content {
         padding: 10px;
