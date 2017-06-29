@@ -7,4 +7,4 @@ To report bugs or glitches, please create a new issue <a href="https://github.co
 
 ---
 
-TotalFreedom 2010 - 2017. All Rights Reserved.
+TotalFreedom 2010 - 2017. <a href="http://bit.ly/TFWebLicense">License</a>
