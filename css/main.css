@@ -62,7 +62,9 @@ body {
   background-size: cover;
   height: auto;
   padding-bottom: 40px;
-  border-bottom: 2px solid #fff; }
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 15px black;
+  box-shadow: 0 0 15px black; }
 
 .rule {
   z-index: 100;
