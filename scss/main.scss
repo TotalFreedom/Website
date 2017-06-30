@@ -50,7 +50,7 @@ body {
 .cover-1 {
     font-size: 1.5em;
     color: rgba(255, 255, 255, .4);
-    height: 100vh
+    height: 100vh;
 }
 .cover-1 a,
 .cover-1 h3 {
@@ -61,7 +61,8 @@ body {
     background: url(../images/cover-2.png) center fixed;
     background-size: cover;
     height: auto;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    border-bottom: 2px solid #fff;
 }
 .rule {
     z-index: 100;

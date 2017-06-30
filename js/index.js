@@ -82,12 +82,6 @@ $(document).ready(function() {
             $(".i").fadeToggle(300);
             $(".nine i").toggleClass("fa-chevron-right");
             $(".nine i").toggleClass("fa-chevron-down");
-        });
-
-        $(".ten").click(function(){
-            $(".j").fadeToggle(300);
-            $(".ten j").toggleClass("fa-chevron-right");
-            $(".ten j").toggleClass("fa-chevron-down");
 
         });
 

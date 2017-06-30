@@ -61,7 +61,8 @@ body {
   background: url(../images/cover-2.png) center fixed;
   background-size: cover;
   height: auto;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  border-bottom: 2px solid #fff; }
 
 .rule {
   z-index: 100;
@@ -226,6 +227,7 @@ h3.discord-widget-title {
 .discord-widget {
   text-align: center;
   margin: 50px auto 0;
+  -webkit-box-shadow: 0 5px 5px 5px rgba(34, 34, 34, 0.9);
   box-shadow: 0 5px 5px 5px rgba(34, 34, 34, 0.9); }
 
 .useful {
