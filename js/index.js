@@ -6,13 +6,13 @@ $(document).ready(function() {
         interval);
 
     var refresh = function() {
-        $.getJSON("https://mcapi.ca/query/play.totalfreedom.me:26865/extensive", function(json) {
+        $.getJSON("https://mcapi.ca/query/play.totalfreedom.me:25565/extensive", function(json) {
             if (json.status !== true) {
                 $("#online").html('<span style="color: firebrick; font-weight: bolder;"> Server is Offline</span><br/><small style="font-size: .5em;">Check out our <a href="status">Associated Servers</a>!</small>');
                 $(".button").hide();
             } else {
-                $("#online").html('TotalFreedom has  <font color="green">' + json.players.online + '</font> players online!<br/>');
-                $("#players-online").html(json.players.online + ' Online Players!');
+                $("#online").html('TotalFreedom has  <font color="green" style="font-weight:300;">' + json.players.online + '</font> players online!<br/>');
+                $("#players-online").html('<font color="green" style="font-weight:900;">' + json.players.online + '</font> Online Players!');
                 $('.button').show();
             }
         });
