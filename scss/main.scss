@@ -41,7 +41,7 @@ body {
 .brand-logo {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-weight: 300;
+    font-weight: 200;
 }	
 .button-collapse {
     margin-top: 5px;
@@ -247,9 +247,10 @@ h3.discord-widget-title {
     }
 }
 
-.nav-wrapper {
-    margin: -8px;
-    background: #222;
+nav .nav-wrapper {
+    margin-top: -12px;
+    height: 63px;
+    background: rgba(#111, 1);
     li>a {
         font-weight: 300;
         font-size: .9em;
