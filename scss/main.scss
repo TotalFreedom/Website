@@ -62,8 +62,8 @@ body {
     background-size: cover;
     height: auto;
     padding-bottom: 40px;
-    border-top: 1px solid rgba(255, 255, 255, .2);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 40px 4px rgba(0, 0, 0, 1);
+
 }
 .rule {
     z-index: 100;
@@ -155,7 +155,7 @@ i.rules-icon {
 .cover-1,
 .cover-2,
 .cover-3 {
-    border-bottom: 1px solid rgba(255, 255, 255, .2)
+    // border-bottom: 1px solid rgba(255, 255, 255, .2)
 }
 .rest>li>a {
     font-size: 1.35em;
@@ -248,8 +248,8 @@ h3.discord-widget-title {
 }
 
 nav .nav-wrapper {
-    margin-top: -12px;
-    height: 63px;
+    margin-top: -14px;
+    height: 60px;
     background: rgba(#111, 1);
     li>a {
         font-weight: 300;
