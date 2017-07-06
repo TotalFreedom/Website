@@ -147,6 +147,13 @@ hr {
     color: rgba(178, 34, 34, 1);
 }
 
+
+.brand-logo {
+    font-size: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 0px;
+}
 @media only screen and (max-width: 768px) {
     .header {
         padding: 5px;
@@ -157,5 +164,9 @@ hr {
     }
     button {
         width: 95%;
+    }
+    nav .brand-logo {
+        margin-top: 13.5px;
+        font-size: 1.6em;
     }
 }
