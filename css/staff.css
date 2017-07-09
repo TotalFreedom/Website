@@ -15,7 +15,23 @@
    limitations under the License.
    
 */
+/*
 
+   Copyright 2017 Aggelos Sarris and contributors
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+*/
 #note a,
 a {
   color: #c8c8c8; }
@@ -82,7 +98,7 @@ h2 {
 .typed-cursor {
   display: none; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .admins {
     width: 95%; }
   .admins li {
@@ -90,5 +106,8 @@ h2 {
     border-radius: 0;
     font-size: 1.2em; }
   nav .brand-logo {
-    margin-top: 13.5px;
-    font-size: 1.6em; } }
+    font-size: 2.1em;
+    margin-top: 13.5px; }
+  nav .nav-wrapper li > a {
+    font-weight: 500;
+    font-size: 1em; } }

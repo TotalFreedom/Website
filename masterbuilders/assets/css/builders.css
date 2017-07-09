@@ -173,6 +173,10 @@ hr {
     }
     nav .brand-logo {
         margin-top: 13.5px;
-        font-size: 1.6em;
+        font-size: 1.8em;
+    }
+    nav .nav-wrapper li > a {
+        font-weight: 500;
+        font-size: 1em;
     }
 }

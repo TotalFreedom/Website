@@ -266,9 +266,9 @@ h3.discord-widget-title {
 }
 
 nav .nav-wrapper {
-    margin-top: -14px;
-    height: 60px;
-    background: rgba(#111, 1);
+    margin-top: -7px;
+    height: 65px;
+    background: rgba(#111, .7);
     li>a {
         font-weight: 300;
         font-size: .9em;
@@ -357,7 +357,7 @@ small {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .cover-2 h2,
     .cover-2 p {
         width: 100%
@@ -401,5 +401,9 @@ small {
     }
     .modal.modal-fixed-footer .modal-content {
         padding: 10px;
+    }
+    nav .nav-wrapper li > a {
+        font-weight: 500;
+        font-size: 1em;
     }
 }

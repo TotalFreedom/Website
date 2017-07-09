@@ -15,7 +15,23 @@
    limitations under the License.
    
 */
+/*
 
+   Copyright 2017 Aggelos Sarris and contributors
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+*/
 * {
   margin: 0;
   padding: 0; }
@@ -285,9 +301,9 @@ h3.discord-widget-title {
     font-weight: 700; }
 
 nav .nav-wrapper {
-  margin-top: -14px;
-  height: 60px;
-  background: #111111; }
+  margin-top: -7px;
+  height: 65px;
+  background: rgba(17, 17, 17, 0.7); }
   nav .nav-wrapper li > a {
     font-weight: 300;
     font-size: .9em; }
@@ -362,7 +378,7 @@ small {
   text-align: center;
   color: #bbb; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .cover-2 h2,
   .cover-2 p {
     width: 100%; }
@@ -397,4 +413,7 @@ small {
   .nav-wrapper {
     background: #111; }
   .modal.modal-fixed-footer .modal-content {
-    padding: 10px; } }
+    padding: 10px; }
+  nav .nav-wrapper li > a {
+    font-weight: 500;
+    font-size: 1em; } }

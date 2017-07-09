@@ -87,7 +87,7 @@ h2 {
 .typed-cursor {
     display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .admins {
         width: 95%
     }
@@ -97,6 +97,11 @@ h2 {
         font-size: 1.2em;
     }
     nav .brand-logo {
-        font-size: 1.6em;
+        font-size: 2.1em;
+        margin-top: 13.5px;
+    }
+    nav .nav-wrapper li > a {
+        font-weight: 500;
+        font-size: 1em;
     }
 }
