@@ -24,7 +24,7 @@ $(document).ready(function() {
         interval);
 
     var refresh = function() {
-        $.getJSON("https://mcapi.ca/query/play.totalfreedom.me:25565/extensive", function(json) {
+        $.getJSON("status.php", function(json) {
             if (json.status !== true) {
                 $("#online").html('<span style="color: firebrick; font-weight: bolder;"> Server is Offline</span><br/><small style="font-size: .5em;">Check out our <a href="status">Associated Servers</a>!</small>');
                 $(".button").hide();
