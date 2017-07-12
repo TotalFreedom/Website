@@ -40,13 +40,6 @@ $(document).ready(function() {
 });
 
 
-// $(document).ready(function() {
-//     $('.brand-logo').typed({
-//         strings: [''],
-//         typeSpeed: -1000
-//     });
-// });
-
     $(document).ready(function(){
         $(".one").click(function(){
             $(".a").fadeToggle(300);

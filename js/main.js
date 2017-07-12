@@ -26,9 +26,6 @@ $(document).ready(function() {
     });
 });
 
-
-
-
 $(document).ready(function(){
     (new Date).getFullYear();
     $("#curYear").text((new Date).getFullYear());
