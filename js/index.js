@@ -24,7 +24,7 @@ $(document).ready(function() {
         interval);
 
     var refresh = function() {
-        $.getJSON("status.php", function(json) {
+        $.getJSON("https://totalfreedom.me/status.php", function(json) {
             if (json.status !== true) {
                 $("#online").html('<span style="color: firebrick; font-weight: bolder;"> Server is Offline</span><br/><small style="font-size: .5em;">Check out our <a href="status">Associated Servers</a>!</small>');
                 $(".button").hide();
