@@ -35,7 +35,7 @@ $(document).ready(function() {
             }
         });
         autoRefresh;
-    }
+    };
     refresh();
 });
 
@@ -130,6 +130,5 @@ function parallax() {
     cover1 = document.getElementById('header');
 
     cover1.style.top = ypos * .4 + 'px';
-};
-
+}
 window.addEventListener('scroll', parallax);
