@@ -45,7 +45,7 @@ body {
     font-weight: 200;
 }
 #rules-title {
-    border-radius: 0px;
+    border-radius: 0;
     font-weight: 100;
 }
 .admins ul,
@@ -369,7 +369,6 @@ small {
         padding: 15px
     }
     .useful {
-        margin-top: 0;
         margin: 0;
     }
     .discord-widget {

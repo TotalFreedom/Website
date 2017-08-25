@@ -79,8 +79,7 @@ button:focus {
 }
 
 #note {
-    font-size: 1.4em;
-    font-size: 900;
+    font-size: 900px;
     font-family: 'Baloo Tamma', cursive;
     margin-top: 5px;
 }
@@ -158,7 +157,7 @@ hr {
     font-size: 'Raleway', sans-serif;
     font-size: 2em;
     font-weight: 200;
-    margin-top: 0px;
+    margin-top: 0;
 }
 @media only screen and (max-width: 768px) {
     .header {
@@ -172,7 +171,7 @@ hr {
         width: 95%;
     }
     nav .brand-logo {
-        margin-top: 13.5px;
+        margin-top: 14px;
         font-size: 1.8em;
     }
     nav .nav-wrapper li > a {
