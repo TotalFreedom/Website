@@ -31,13 +31,12 @@ body {
     padding: 1px 10px;
     border-left: 3px solid #F44336;
     display: block; }
-
-a {
-  color: #bbb;
-  padding: 2px;
-  -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  border-bottom: 1px hidden #ccc; }
-  a:hover {
-    border-bottom: 1px solid #ccc; }
+  .content a {
+    color: #bbb;
+    padding: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-bottom: 1px hidden #ccc; }
+    .content a:hover {
+      border-bottom: 1px solid #ccc; }
