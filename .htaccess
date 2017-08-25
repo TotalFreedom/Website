@@ -3,3 +3,6 @@ ErrorDocument 403 "<a href='https://totalfreedom.me'><img src='https://totalfree
 ErrorDocument 404 "<a href='https://totalfreedom.me'><img src='https://totalfreedom.me/images/404.png' /></a>"
 
 Redirect 301 /staff/ /staff.html
+Redirect 301 /conduct/ /conduct.html
+
+
