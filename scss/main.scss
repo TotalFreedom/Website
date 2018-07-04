@@ -13,7 +13,7 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-   
+
 */
 
 @import 'mixins';
@@ -60,7 +60,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: 200;
-}	
+}
 .button-collapse {
     margin-top: 5px;
     margin-bottom: 10px
@@ -234,14 +234,14 @@ h3.discord-widget-title {
         width: 200px;
         @include transition(all .2s ease);
         margin-bottom: 10px;
-        
+
         &:hover {
             background: rgba(100, 100, 100, .1);
             color: #fff;
             transform: translateY(-5px)
         }
     }
-    
+
     h3 {
         font-weight: 100;
     }
@@ -354,7 +354,10 @@ small {
 
 
 
-
+footer.page-footer .footer-copyright {
+  height: auto!important;
+  margin-bottom: -15px;
+}
 
 
 @media only screen and (max-width: 991px) {
