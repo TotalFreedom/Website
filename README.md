@@ -2,7 +2,7 @@
 
 To report bugs or glitches, please create a new issue <a href="https://github.com/TotalFreedom/Website/issues/new">here</a>
 
-<b>http://totalfreedom.me</b>
+<h6><b>http://totalfreedom.me</b></h6>
 
 
 ---
@@ -10,7 +10,7 @@ To report bugs or glitches, please create a new issue <a href="https://github.co
 
 Copyright 2017 Aggelos Sarris and contributors
 
-Licensed under the Apache License, Version 2.0 (the "License");
+Licensed under the Apache License, Version 2.0 (the "License")
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
