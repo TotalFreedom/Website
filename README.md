@@ -1,4 +1,4 @@
-<h1>TotalFreedom Website</h1>
+ The Liberty website
 
 To report bugs or glitches, please create a new issue <a href="https://github.com/TotalFreedom/Website/issues/new">here</a>
 
